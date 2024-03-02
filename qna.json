@@ -1,0 +1,1289 @@
+[
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who among the following individuals played a significant role in spreading Islam in the Sub-Continent during the 18th century?",
+      "answer": "A) Shah WaliUllah\nB) Syed Ahmed ShaheedBrailvi\nC) Haji ShariatUllah",
+      "distractors": {
+        "1": "Shah WaliUllah",
+        "2": " Syed Ahmed ShaheedBrailvi",
+        "3": " Haji ShariatUllah"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Shah Wali Ullah believe that translating the Holy Quran into Persian was necessary for the Muslims?",
+      "answer": "To improve their knowledge of Islam and produce a feeling of solidarity.",
+      "distractors": {
+        "1": "To make them more aware of the teachings of the Holy Quran",
+        "2": " To make them more aware of the teachings of the Holy Quran",
+        "3": " To make them more aware of the teachings of the Holy Quran"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the ways in which Islam was spread in the Sub-Continent during the 18th century?",
+      "answer": "Translation of the Holy Quran into Persian, Jihad Movement, Faraizi Movement",
+      "distractors": {
+        "1": "Faraizi Movement",
+        "2": " Jihad Movement",
+        "3": " Faraizi Movement"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the goals of Shah WaliUllah and Syed Ahmed Shaheed Brailvi in spreading Islam in the Sub-Continent before 1850?",
+      "answer": "To improve Muslims' knowledge of Islam and promote solidarity, and to inspire a jihad (holy war) to restore Muslim faith, respectively.",
+      "distractors": {
+        "1": "To make the Faraizi Movement more popular",
+        "2": " To make the Faraizi Movement more popular",
+        "3": " To make the Faraizi Movement more popular"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Faraizi Movement started by HSU?",
+      "answer": "To insist that Muslims should perform their religious obligations",
+      "distractors": {
+        "1": "To help Hindu landlords who were unhappy that working time was being lost",
+        "2": " To help Muslims concentrate on Quranic teachings",
+        "3": " To help Muslims to translate the Holy Quran into Persian"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was responsible for translating the Holy Quran into a main language of the Muslims in the Sub-Continent before 1850?",
+      "answer": "Shah WaliUllah",
+      "distractors": {
+        "1": "HSU",
+        "2": " SWU",
+        "3": " SASB"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the scholar believe that translating the Holy Quran into Persian was necessary to improve the state of Muslims in the Sub-Continent?",
+      "answer": "To improve their knowledge of Islam and produce a feeling of solidarity.",
+      "distractors": {
+        "1": "To make them understand the Holy Quran better",
+        "2": " To make them understand the Holy Quran better",
+        "3": " To make them understand the Holy Quran better"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did Shah WaliUllah emphasize in his message to promote the spread of Islam in the Sub-Continent?",
+      "answer": "He emphasized traditional values of their faith",
+      "distractors": {
+        "1": "He emphasized the importance of Quranic teachings",
+        "2": " He emphasized the importance of strong leadership",
+        "3": " He emphasized the importance of Quranic teachings"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the disciple of Syed Ahmed who organized a stand against the zamindars in West Bengal?",
+      "answer": "Kazi Nuruddin",
+      "distractors": {
+        "1": "Syed Ahmed",
+        "2": " Syed Ahmeds son",
+        "3": " Syed Ahmeds brother"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the growth of the Faraizi movement in the Sub-Continent before 1850?",
+      "answer": "The Hindu landlords were unhappy with the Muslim practices",
+      "distractors": {
+        "1": "The Muslim farmers were not satisfied with the Muslim practices",
+        "2": " The Muslim farmers were not allowed to work in the SubContinent",
+        "3": " The Muslim farmers were not allowed to work in the SubContinent"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the primary way in which Shah WaliUllah contributed to the spread of Islam in the Sub-Continent before 1850?",
+      "answer": "Translating the Holy Quran into Persian",
+      "distractors": {
+        "1": "Creating a huge group of followers",
+        "2": " Educating the Muslims",
+        "3": " Performing faraiz"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind Shah WaliUllah's decision to translate the Holy Quran into Persian?",
+      "answer": "To improve the knowledge of Muslims and produce a feeling of solidarity",
+      "distractors": {
+        "1": "To make it easier for Muslims to learn the Holy Quran",
+        "2": " To make it easier for Muslims to learn the Holy Quran",
+        "3": " To make it easier for Muslims to learn the Holy Quran"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Shah Waliullah's reason for wanting to restore the pride of Muslims and remove Hindu practices in worship?",
+      "answer": "To improve their knowledge of Islam and produce a feeling of solidarity among the Muslims.",
+      "distractors": {
+        "1": "To make the Hindu landlords happy with the Muslim practices",
+        "2": " To make the Hindu landlords happy with the Muslim practices",
+        "3": " To make the Hindu landlords happy with the Muslim practices"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main reason why Shah Waliullah felt that Muslims faced many problems in his time?",
+      "answer": "Their lack of knowledge about Islam and the Holy Quran.",
+      "distractors": {
+        "1": "Their disorganisation",
+        "2": " Their lack of power",
+        "3": " Their disunity with Hindus"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What advantage did the British have over the Indians during their colonization of the Sub-Continent?",
+      "answer": "Superior weapons and troop discipline",
+      "distractors": {
+        "1": "Superior language and culture",
+        "2": " Better education",
+        "3": " Better communication"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British government decide to expand its territory beyond India in the mid-19th century?",
+      "answer": "To counter the threat of Russian expansion in Central Asia.",
+      "distractors": {
+        "1": "To take over from the Mughals",
+        "2": " To establish its superiority over the Indians",
+        "3": " To take over from the Mughals"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the English establish a trading base in the sub-Continent?",
+      "answer": "To establish their influence and oust the Dutch and Portuguese",
+      "distractors": {
+        "1": "To develop their business with the Dutch and Portuguese",
+        "2": " To develop their trade with the Dutch and Portuguese",
+        "3": " To develop their business with the Dutch and Portuguese"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What led to the downfall of the Mughal Empire in the 18th century?",
+      "answer": "In-fighting amongst successors",
+      "distractors": {
+        "1": "The Dutch and Portuguese",
+        "2": " The English",
+        "3": " The Dutch and Portuguese"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges faced by the Mughal Empire during the reign of Aurangzeb's successors?",
+      "answer": "They became lazy, weak, and corrupt; failed to run the empire effectively due to financial inefficiencies; and struggled with succession wars.",
+      "distractors": {
+        "1": "They had to deal with the infighting among their successors",
+        "2": " They had to run the empire effectively due to financial inefficiencies",
+        "3": " They had to run the empire effectively due to infighting among their successors"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the result of the battles of Plassey and Buxar for the British?",
+      "answer": "They gained vast riches and increased control over the provinces.",
+      "distractors": {
+        "1": "They suffered several invasions and suffered much inefficiency",
+        "2": " They overran the Empire and were superior in such areas as military might",
+        "3": " They suffered several invasions and suffered from financial inefficiencies"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the factors that contributed to the decline of the Mughal Empire in the early 18th century?",
+      "answer": "Living an extravagant lifestyle, in-fighting amongst potential successors, religious policies, Deccan Wars, military inefficiency, financial inefficiencies, vastness of the Empire, and invasions by Persians and Afghans.",
+      "distractors": {
+        "1": "The invasions by Persians and Afghans",
+        "2": " The Deccan Wars",
+        "3": " The invasions by Persians and Afghans"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the English establish a trading base in the sub-Continent in the late 18th century?",
+      "answer": "To establish their influence and oust the Dutch and Portuguese",
+      "distractors": {
+        "1": "To fight against the Mughals",
+        "2": " To build up their army and equipment",
+        "3": " To make a trade with the Mughals"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the reasons behind the eventual failures of Tipu Sultan and Ranjit Singh's conquests against the British?",
+      "answer": "Strength of British army",
+      "distractors": {
+        "1": "The lack of British army",
+        "2": " The lack of British army",
+        "3": " The lack of British army"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some challenges faced by the Mughal Emperors after Aurangzeb's death in terms of leadership and administration?",
+      "answer": "They were often lazy, weak, and corrupt.",
+      "distractors": {
+        "1": "They were often unable to control their own affairs",
+        "2": " They were often unable to control their own affairs",
+        "3": " They were often unable to control their own affairs"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the East India Company (EIC) establish a trading base in the sub-Continent?",
+      "answer": "To establish a profitable future and protect its trading interests.",
+      "distractors": {
+        "1": "To protect its interests and establish a strong military might",
+        "2": " To establish a strong military might",
+        "3": " To establish a strong military might"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the result of the Battles of Plassey and Buxar for the British?",
+      "answer": "They gained vast riches and favourable trading rights with the local nawabs.",
+      "distractors": {
+        "1": "They were defeated by the Dutch and Portuguese",
+        "2": " They were defeated by the local nawabs",
+        "3": " They were defeated by the Dutch and Portuguese"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major reason for the decline of the Mughal Empire during Aurangzeb's reign?",
+      "answer": "He introduced a tax on non-Muslims called the Jizya.",
+      "distractors": {
+        "1": "He fought against the British in the Battles of Plassey and Buxar",
+        "2": " He fought against the British in the Battles of Plassey and Buxar",
+        "3": " He introduced governorsgeneral into the provinces"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the extension of British control in India during the late 19th century?",
+      "answer": "The death of a ruler without a natural heir",
+      "distractors": {
+        "1": "The influence of the British on the Indian government",
+        "2": " The Britishs influence on the Indian government",
+        "3": " The Britishs influence on the Indian government"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the result of the battles of Plassey and Buxar for the British?",
+      "answer": "They gained vast wealth and control over the provinces",
+      "distractors": {
+        "1": "They gained control of the provinces",
+        "2": " They gained control of the provinces",
+        "3": " They gained control of the provinces"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "When did the British East India Company first establish itself in India?",
+      "answer": "1608",
+      "distractors": {
+        "1": "1609",
+        "2": " 1616",
+        "3": " 1616"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the major factors that contributed to the decline of the Mughal Empire in the 18th century?",
+      "answer": "The successors became lazy, weak, and corrupt; there was no law of succession; fighting wars became expensive and inefficient; the military was stretched and suffered much inefficiency; the successors failed to run the Empire effectively and became extravagant, suffering from financial inefficiencies; the vastness of the Empire made it hard to defend and suffer several invasions.",
+      "distractors": {
+        "1": "The successors were lazy",
+        "2": " weak",
+        "3": " and corrupt"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British East India Company establish a trading base in the sub-continent in the early 19th century?",
+      "answer": "To establish a strategic port and protect its trading interests in the region and the Far East.",
+      "distractors": {
+        "1": "To protect its interests in the Far East",
+        "2": " To establish a trading base in the Far East",
+        "3": " To protect its interests in the Far East"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the notable military successes of the British Army during the 19th century in India?",
+      "answer": "The annexation of Oudh under the Doctrine of Lapse",
+      "distractors": {
+        "1": "The annexation of the Indian state of Gujarat",
+        "2": " The annexation of the Indian state of Gujarat",
+        "3": " The annexation of the Indian state of Gujarat"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What contributed to the decline of the Mughal Empire in the 18th century?",
+      "answer": "Aurangzeb's intolerant attitude towards non-Muslims and his destruction of Hindu temples",
+      "distractors": {
+        "1": "The failure of Tipu Sultan and Ranjit Singh",
+        "2": " The failure of local Nawabs",
+        "3": " The failure of British Army"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the result of the battles of Plassey and Buxar for the British?",
+      "answer": "They gained vast riches and favorable trading rights with local nawabs",
+      "distractors": {
+        "1": "They were defeated by the Mughal army",
+        "2": " They were defeated by the Mughal army",
+        "3": " They were defeated by the Mughal army"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the negative impacts of British colonialism on India in the mid-19th century?",
+      "answer": "Imposition of Western values, language education, social reforms, and loss of local autonomy.",
+      "distractors": {
+        "1": "Imposition of Western values",
+        "2": " language education",
+        "3": " social reforms"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Battle of Plassey in 1757?",
+      "answer": "The British East India Company gained control of the trade in Bengal.",
+      "distractors": {
+        "1": "The British East India Company was defeated by the Indians",
+        "2": " The British East India Company was defeated by the Indians",
+        "3": " The British East India Company was defeated by the Indians"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges faced by the Mughal emperors after Aurangzeb's death?",
+      "answer": "They became lazy, weak, and corrupt.",
+      "distractors": {
+        "1": "They had to fight against the French",
+        "2": " They had to fight against the EIC soldiers",
+        "3": " They had to fight against the French"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British establish a trading base in the sub-continent in the early 19th century?",
+      "answer": "To gain access to valuable resources such as cotton, silk, and sugar.",
+      "distractors": {
+        "1": "To develop their military might",
+        "2": " To gain access to the subcontinent",
+        "3": " To gain access to the subcontinent"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the primary reason for the eventual failure of Tipu Sultan and Ranjit Singh's conquests?",
+      "answer": "Strength of British army",
+      "distractors": {
+        "1": "The Dutch and Portuguese",
+        "2": " The Dutch and Portuguese",
+        "3": " The British government"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who were the warriors who defeated a Mughal army outside Delhi in 1760?",
+      "answer": "The Marathas",
+      "distractors": {
+        "1": "The Nawabs",
+        "2": " The British",
+        "3": " The British"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major problem facing the Mughal Empire during the reign of Aurangzeb's successors?",
+      "answer": "The Empire was badly ruled due to thelaziness, weakness, and corruption of the rulers.",
+      "distractors": {
+        "1": "The Empire was badly ruled due to the weakness",
+        "2": " weakness",
+        "3": " and corruption of the rulers"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind Great Britain's decision to annex Sindh and Punjab in 1841?",
+      "answer": "They wanted a pro-Great Britain ruler in the region.",
+      "distractors": {
+        "1": "They wanted to make more money",
+        "2": " They wanted to make more enemies",
+        "3": " They wanted to make more money"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the East India Company (EIC) establish a trading base in the sub-Continent?",
+      "answer": "To establish a profitable future in the trade of spices, cotton, and silk, and to oust the Dutch and Portuguese.",
+      "distractors": {
+        "1": "To oust the Dutch and Portuguese",
+        "2": " To establish a profitable future in the trade of spices",
+        "3": " cotton"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the ruler of Mysore during the 1780s?",
+      "answer": "Tipu Sultan",
+      "distractors": {
+        "1": "The Dutch",
+        "2": " The Dutch",
+        "3": " The Portuguese"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one way in which the British East India Company expanded its control over India during the 18th century?",
+      "answer": "Introducing governors-generals into provinces to administer them on British lines",
+      "distractors": {
+        "1": "Buying the land in the south of India",
+        "2": " Buying the land in the north of India",
+        "3": " Buying the land in the south of India"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Robert Clive's most significant achievement as a colonial administrator in India?",
+      "answer": "Defeating the French at Plassey in 1757",
+      "distractors": {
+        "1": "Introducing governorgenerals into the provinces",
+        "2": " Taking control of more land",
+        "3": " Building a network of roads and later railways"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the results of the Battles of Plassey and Buxar for the British?",
+      "answer": "The British gained control of Bengal and favorable trading rights with local nawabs.",
+      "distractors": {
+        "1": "The British gained control of Bengal and favorable trading rights with local nawabs",
+        "2": " The British gained control of Bengal and favorable trading rights with local nawabs",
+        "3": " The British gained control of Bengal and favorable trading rights with local nawabs"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the main benefits of railways to the British during their rule in India before 1850?",
+      "answer": "Increasing British profits",
+      "distractors": {
+        "1": "Providing favourable trading rights",
+        "2": " Providing massive new resources",
+        "3": " Providing governorgenerals"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the growing opposition to the central government in the Sub-Continent after the death of Aurangzeb?",
+      "answer": "The landlords/tax collectors were increasingly unwilling to accept the rule of any new emperor and to make payments to the government in Delhi.",
+      "distractors": {
+        "1": "The landlordstax collectors were unwilling to accept the rule of any new emperor",
+        "2": " The landlordstax collectors were unwilling to accept the rule of any new emperor",
+        "3": " The landlordstax collectors were unwilling to accept the rule of any new emperor"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the Battle of Plassey for the East India Company?",
+      "answer": "It increased the company's control over the profitable trade in Bengal",
+      "distractors": {
+        "1": "It made the companys armies stronger than before",
+        "2": " It made the companys armies stronger than before",
+        "3": " It made the companys armies stronger than before"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the major factors that contributed to the decline of the Mughal Empire in the 18th century?",
+      "answer": "In-fighting, instability, and a lack of interest in the running of the empire; defeat by Afghan and Persian invaders; high taxation due to military campaigns and luxurious palaces; and intolerance towards non-Muslims.",
+      "distractors": {
+        "1": "The lack of interest in the running of the empire the defeat by Afghan and Persian invaders the lack of interest in the running of the empire and the lack of interest in the running of the empire",
+        "2": " The lack of interest in the running of the empire the lack of interest in the running of the empire and the lack of interest in the running of the empire",
+        "3": " The lack of interest in the running of the empire the defeat by Afghan and Persian invaders and the lack of interest in the running of the empire"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major factor hindering the Indian rebellion against the British colonial rule in the mid-19th century?",
+      "answer": "Lack of unity and common cause amongst the Indian population",
+      "distractors": {
+        "1": "The lack of interest in the running of the Mughal Empire",
+        "2": " The lack of a definite line of succession",
+        "3": " The lack of interest in the running of the Mughal Empire"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a significant social reform imposed by the British on Indians in the mid-19th century?",
+      "answer": "Coeducational schools",
+      "distractors": {
+        "1": "Cooperation with the army",
+        "2": " The army",
+        "3": " The army"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major change imposed by the British on Indians in the 1830s?",
+      "answer": "The replacement of Persian and Sanskrit with English as the official language",
+      "distractors": {
+        "1": "The introduction of a new cartridge coated in both cow and pig fat",
+        "2": " The sending of their children to coeducational schools",
+        "3": " The abandonment of purdha"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why were the Punjab and Kashmir unable to provide effective support to the rebellion against the British?",
+      "answer": "They sent men and supplies to help the British instead.",
+      "distractors": {
+        "1": "They were too poor to send men and supplies to the British",
+        "2": " They were too poor to send men and supplies to the British",
+        "3": " They were too poor to send men and supplies to the British"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the ways in which the British colonial government imposed their will on the Indian people in the mid-19th century?",
+      "answer": "Forced conversion to Christianity, imposition of English as the official language, abolition of purdha, and the Doctrine of Lapse.",
+      "distractors": {
+        "1": "Forced conversion to Islam",
+        "2": " abolition of purdha",
+        "3": " and the Doctrine of Lapse"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What factor(s) contributed to the failure of the Indian Rebellion of 1857?",
+      "answer": "Lack of unity and common cause amongst the Indian population",
+      "distractors": {
+        "1": "The Britishs refusal to accept the Indian system",
+        "2": " The Britishs refusal to accept the Indian system",
+        "3": " The Britishs refusal to accept the Indian system"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Punjab and Kashmir not join the rebellion against the British?",
+      "answer": "They actually sent men and supplies to help the British.",
+      "distractors": {
+        "1": "They were not interested in helping the rebellion",
+        "2": " They were not interested in helping the rebellion",
+        "3": " They were not interested in helping the rebellion"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major factor leading to the War of Independence of 1857?",
+      "answer": "The greased cartridge incident",
+      "distractors": {
+        "1": "The British army",
+        "2": " The British army",
+        "3": " The British army"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the cause of unrest among Indians in the mid-19th century due to British colonial policies?",
+      "answer": "The introduction of the English language as the official language and the forced abolition of purdah",
+      "distractors": {
+        "1": "The introduction of the Doctrine of Lapse",
+        "2": " The forced abolition of purdha",
+        "3": " The forced education of children"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "When did the British government officially ban the practice of suttee in India?",
+      "answer": "1829",
+      "distractors": {
+        "1": "1832",
+        "2": " 1832",
+        "3": " 1832"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the ways in which the British attempted to \"westernize\" Indians in the 19th century?",
+      "answer": "Imposed English as the official language, forced Indians to send their children to co-educational schools, banned suttee, and outlawed the killing of baby daughters.",
+      "distractors": {
+        "1": "Imposed English as the official language",
+        "2": " forced Indians to send their children to coeducational schools",
+        "3": " banned suttee"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who led the uprising against the British in India?",
+      "answer": "Nana Sahib",
+      "distractors": {
+        "1": "Thomas Macaulay",
+        "2": " Sikhs",
+        "3": " Muslims"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was Nana Sahib and what did they do during the War of Independence?",
+      "answer": "Nana Sahib fired on a British force on barges, killing 300 women and children and soldiers.",
+      "distractors": {
+        "1": "Nana Sahib killed 300 women and children and soldiers",
+        "2": " Nana Sahib killed 300 women and children and soldiers",
+        "3": " Nana Sahib killed 300 women and children and soldiers"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the reasons why the Indian rebels were unable to defeat the British in the 19th century?",
+      "answer": "Lack of unity and common cause amongst the Indian population, lack of effective leadership, and the British having modern methods of fighting and being well-disciplined and supplied by some of the local rulers.",
+      "distractors": {
+        "1": "Lack of modern methods of fighting",
+        "2": " Lack of effective leadership",
+        "3": " Lack of modern methods of fighting"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of Sir Sayyid Ahmad Khan's writing books after the War of Independence?",
+      "answer": "To show the British that Muslims were not entirely to blame for the conflict and to suggest ways for the British to better understand Muslims.",
+      "distractors": {
+        "1": "To show the British that Muslims were to blame for the conflict and to show the British that Muslims were to blame for the conflict",
+        "2": " To show the British that Muslims were to blame for the conflict and to show the British that Muslims were to blame for the conflict",
+        "3": " To show the British that Muslims were to blame for the conflict and to show the British that Muslims were to blame for the conflict"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of Muhammad Iqbal's writings on politics and education?",
+      "answer": "To show the British that Muslims were only partly to blame for the War of Independence and to suggest ways for the British to better understand Muslims.",
+      "distractors": {
+        "1": "To show that Muslims were only partly to blame for the War of Independence",
+        "2": " To show that Muslims were only partly to blame for the War of Independence",
+        "3": " To show that Muslims were only partly to blame for the War of Independence"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did the speaker suggest for the Muslims to improve their poor status?",
+      "answer": "They had to accept more British ideas and take advantage of British education.",
+      "distractors": {
+        "1": "They had to accept the British ideas and take advantage of British education",
+        "2": " They had to accept the British ideas and take advantage of British education",
+        "3": " They had to accept the British ideas and take advantage of British education"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the goal of Muhammad Iqbal's efforts to improve the position of Muslims in India during the late 19th and early 20th centuries?",
+      "answer": "To establish a separate Muslim electorate and provide an education for future leaders.",
+      "distractors": {
+        "1": "To accept more British ideas and take advantage of British education",
+        "2": " To accept more British ideas and take advantage of British education",
+        "3": " To improve their social and economic conditions by taking up posts in the civil service and the army"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main goal of Muhammad Iqbal's efforts in the early 20th century?",
+      "answer": "To improve the position of Muslims through education",
+      "distractors": {
+        "1": "To make scientific writings available to Muslims",
+        "2": " To make a contribution in politics",
+        "3": " To make scientific writings available to Muslims"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the goal of Sir Sayyid Ahmad Khan's movement?",
+      "answer": "To improve relations between the British and Muslims",
+      "distractors": {
+        "1": "To make the British understand Islam better",
+        "2": " To make the British understand Islam better",
+        "3": " To make the British understand Islam better"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did the speaker suggest for improving relations between the British and Muslims in India?",
+      "answer": "Consulting with Indians",
+      "distractors": {
+        "1": "Getting rid of British doubts",
+        "2": " Taking up posts in the army",
+        "3": " Getting rid of British doubts"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Sir Syed's view on how the British should treat Muslims and Hindus in India?",
+      "answer": "The British should treat Muslims and Hindus differently since they lived separate and different lives from one another and were really like separate nations.",
+      "distractors": {
+        "1": "The British should treat Muslims and Hindus differently because they lived separate and different lives from one another",
+        "2": " The British should treat Muslims and Hindus differently because they lived separate and different lives from one another",
+        "3": " The British should treat Muslims and Hindus differently because they lived separate and different lives from one another"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the central idea of Sir Syed Ahmed Khan's approach towards the British colonial government in India?",
+      "answer": "He advocated for separate electorates for Muslims and Hindus in India.",
+      "distractors": {
+        "1": "He wanted to make the British understand Muslims better",
+        "2": " He wanted to make the British understand Muslims better",
+        "3": " He wanted to make the British understand Muslims better"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main goal of Muhammad Iqbal's efforts in promoting education among Muslims in India during the late 19th and early 20th centuries?",
+      "answer": "To improve the position of Muslims through education",
+      "distractors": {
+        "1": "To make the Muslims understand Christianity better",
+        "2": " To make the British understand Muslims better",
+        "3": " To make the Muslims live separate and different lives from one another"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language is considered to be the unifying force behind the nation in Pakistan?",
+      "answer": "Urdu",
+      "distractors": {
+        "1": "English",
+        "2": " Arabic",
+        "3": " Hindi"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why is Urdu considered the language of all Pakistanis despite being less promoted compared to other regional languages?",
+      "answer": "Because it has been associated with the Pakistani movement and is seen as a unifying force in society",
+      "distractors": {
+        "1": "Because it has been the language of all Pakistanis for 300 years",
+        "2": " Because it has been the language of all Muslims for 300 years",
+        "3": " Because it has been the language of all Pakistanis for 300 years"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language is closely associated with the Pakistani movement and was considered as the language of all Muslims for 300 years?",
+      "answer": "Urdu",
+      "distractors": {
+        "1": "Baluchi",
+        "2": " Sindhi",
+        "3": " Pushto"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language was used by Sufi poets in the Punjab region before Independence?",
+      "answer": "Punjabi",
+      "distractors": {
+        "1": "English",
+        "2": " Hindi",
+        "3": " English"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What steps were taken after Independence to promote the local language of the Punjab?",
+      "answer": "Steps were taken to promote Punjabi",
+      "distractors": {
+        "1": "The Sindhi Literary Board was set up",
+        "2": " The Punjabi Literary Board was set up",
+        "3": " The Sindhi Literary Board was set up"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language is closely associated with the Pakistani movement and is seen as a unifying force in society after independence?",
+      "answer": "Urdu",
+      "distractors": {
+        "1": "Punjabi",
+        "2": " Baluchi",
+        "3": " Punjabi"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of Urdu as a language in Pakistan during the Pakistani Movement and after Independence?",
+      "answer": "It was the language associated with the movement and government is committed to using it at all levels in society",
+      "distractors": {
+        "1": "It was the language associated with the Pakistani Movement",
+        "2": " It was the language of all Muslims for 300 years",
+        "3": " It was the language associated with the Pakistani Movement"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What steps has the Pakistan government taken to promote the development of Balochi language and literature since 1947?",
+      "answer": "Radio Pakistan Karachi broadcasts in Balochi, Balochi Literary Association set up, weekly and monthly magazines published, Quetta TV station, development of Balochi literature, writers and poets (such as Atta Shad, IshqShamin, Gul Khan Nazir, and Azad Jamal Din)",
+      "distractors": {
+        "1": "Quetta TV station",
+        "2": " weekly and monthly magazines published",
+        "3": " Balochi Literary Association set up"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language was commonly used by Sufi poets in the Punjab region before independence?",
+      "answer": "Punjabi",
+      "distractors": {
+        "1": "Sindhi",
+        "2": " Balochi",
+        "3": " English"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Sindhi Literary Board established in 1948?",
+      "answer": "To promote Sindhi literature",
+      "distractors": {
+        "1": "To print books in Arabic",
+        "2": " To help the Sufi poets",
+        "3": " To help the government"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Bazm-e-Talib-ul-Muala established in 1954?",
+      "answer": "To promote Sindhi folk literature",
+      "distractors": {
+        "1": "To set up a literary board",
+        "2": " To set up a language school",
+        "3": " To set up a literary board"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What language is closely associated with the Pakistani Movement and is considered to be the language of all Muslims for 300 years?",
+      "answer": "Urdu",
+      "distractors": {
+        "1": "English",
+        "2": " Hindi",
+        "3": " Arabic"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British consider dividing the province of Bengal along religious lines?",
+      "answer": "To make administration easier",
+      "distractors": {
+        "1": "To make Bengal a Muslim province",
+        "2": " To make Bengal a Hindu province",
+        "3": " To make Bengal a Muslim province"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Hindus resent the relative high position of Muslims in the Councils despite their smaller numbers?",
+      "answer": "They saw it as a concession too far",
+      "distractors": {
+        "1": "They thought it was a sign of weakness",
+        "2": " They thought it was a sign of weakness",
+        "3": " They thought it was a sign of weakness"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Montague-Chelmsford Reforms for the Muslim League and the Congress?",
+      "answer": "Disappointment and the eventual breakdown of cooperation",
+      "distractors": {
+        "1": "Success and the eventual breakdown of cooperation",
+        "2": " Success and the eventual breakdown of cooperation",
+        "3": " Success and the eventual breakdown of cooperation"
+      },
+      "topic": 6
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslim League was founded by prominent Muslim leaders in the early 20th century?",
+      "answer": "To counter the growing influence of extreme Hindu nationalist groups and to advocate for the rights of Muslims in India.",
+      "distractors": {
+        "1": "To fight against the British government",
+        "2": " To fight against the British government",
+        "3": " To fight against the British government"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the Hindu opposition to the Partition of India proposed by the British?",
+      "answer": "They believed it was a deliberate attempt to divide and rule by the British.",
+      "distractors": {
+        "1": "They believed it was a deliberate attempt to divide and rule by the British",
+        "2": " They believed it was a deliberate attempt to divide and rule by the British",
+        "3": " They believed it was a deliberate attempt to divide and rule by the British"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the Montague-Chelmsford Reforms and what did they do?",
+      "answer": "They reserved sweeping powers for the central government with only minor concessions for the locals.",
+      "distractors": {
+        "1": "They gave the locals more power than the central government",
+        "2": " They gave the locals more power than the central government",
+        "3": " They gave the locals more power than the central government"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Lucknow Pact?",
+      "answer": "To reach an agreement on a scheme of constitutional reforms",
+      "distractors": {
+        "1": "To show the unity of the Muslims and Hindus",
+        "2": " To show the unity of the British government",
+        "3": " To show the unity of the Muslims and Hindus"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslims in Bengal support the idea of dividing the province along religious lines?",
+      "answer": "They believed it would lead to an end to Hindu oppression and give them true recognition in a province where they were in the majority.",
+      "distractors": {
+        "1": "They believed it would help them to gain more respect from the British government",
+        "2": " They believed it would help them to gain more power in the British government",
+        "3": " They believed it would help them to gain more respect from the British government"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Muslim demands made to the British in the given context?",
+      "answer": "The Muslim demands were accepted by the British, leading to improved Muslim-British relations and the formation of the All-India Muslim League.",
+      "distractors": {
+        "1": "The Muslim demands were not accepted by the British",
+        "2": " The Muslim demands were not accepted by the British",
+        "3": " The Muslim demands were not accepted by the British"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the Hindus' opposition to the partition of India proposed by Lord Minto in the early 20th century?",
+      "answer": "They believed it was a deliberate attempt to divide and rule by the British.",
+      "distractors": {
+        "1": "They believed it was a deliberate attempt to divide and rule by the British",
+        "2": " They believed it was a deliberate attempt to divide and rule by the British",
+        "3": " They believed it was a deliberate attempt to divide and rule by the British"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the Montague-Chelmsford Reforms of 1919?",
+      "answer": "Reserved sweeping powers for the central government with minor concessions for local leaders",
+      "distractors": {
+        "1": "Developed a new system of government for the local government",
+        "2": " Developed a new system of government for the local government",
+        "3": " Developed a new system of government for the local government"
+      },
+      "topic": 7
+    }
+  }
+]
