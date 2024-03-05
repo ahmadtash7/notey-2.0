@@ -1,4 +1,3 @@
-// SignUp.js
 import React, { useState } from 'react';
 
 const SignUp = () => {
@@ -8,6 +7,8 @@ const SignUp = () => {
     password: '',
   });
 
+  const [error, setError] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -16,45 +17,35 @@ const SignUp = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Perform signup logic (e.g., send data to the server)
-    console.log('Form submitted:', formData);
-    // Reset the form after submission
-    setFormData({
-      username: '',
-      email: '',
-      password: '',
-    });
-  };
 
-  const [error, setError] = useState(null);
+    try {
+      const response = await fetch('http://127.0.0.1:8000/noteyapp/signin/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-  try {
-    const response = fetch('http://localhost/noteyapp/signin', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
+      if (!response.ok) {
+        throw new Error('Failed to sign up');
+      }
 
-    if (!response.ok) {
-      throw new Error('Failed to sign up');
+      console.log('Form submitted successfully');
+      // Reset the form after successful submission
+      setFormData({
+        username: '',
+        // email: '',
+        password: '',
+      });
+      setError(null);
+    } catch (error) {
+      console.error('Error signing up:', error.message);
+      setError('Failed to sign up. Please try again.');
     }
-
-    console.log('Form submitted successfully');
-    // Reset the form after successful submission
-    setFormData({
-      username: '',
-      // email: '',
-      password: '',
-    });
-    setError(null);
-  } catch (error) {
-    console.error('Error signing up:', error.message);
-    setError('Failed to sign up. Please try again.');
-  }
+  };
 
   return (
     <div className="flex items-center justify-center h-screen">
@@ -101,7 +92,7 @@ const SignUp = () => {
             Sign In
           </button>
           <p className="mt-4 text-sm text-gray-600">
-          New User? <a href="#">Create Account</a>
+            New User? <a href="#">Create Account</a>
           </p>
         </form>
       </div>

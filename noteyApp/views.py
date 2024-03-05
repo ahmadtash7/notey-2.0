@@ -1,13 +1,22 @@
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-
+from rest_framework.views import APIView
 from .models import QuestionAnswerTable, ContextTable, TopicTable, LeaderBoardTable, UserQuizTable, StatsTable
 from django.contrib.auth.models import User
-from .serializer import QuestionAnswerTableSerializer, ContextTableSerializer, TopicTableSerializer, LeaderBoardTableSerializer, UserQuizTableSerializer, UserSerializer, StatsTableSerializer
+from .serializer import QuestionAnswerTableSerializer, ContextTableSerializer, TopicTableSerializer, LeaderBoardTableSerializer, UserQuizTableSerializer, UserSerializer, StatsTableSerializer, UserLoginSerializer, UserRegisterSerializer
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 from django.shortcuts import render, redirect, HttpResponse
+from django.contrib.auth import authenticate, login
+from rest_framework import status, permissions
+from rest_framework_simplejwt.authentication import JWTAuthentication
+from rest_framework.authentication import SessionAuthentication
+from django.contrib.auth.password_validation import validate_password
+from django.contrib.auth import logout
+
+from django.core.validators import validate_email
+from django.core.exceptions import ValidationError
 
 
 
@@ -57,41 +66,59 @@ def updateStatsView(request):
     response = HttpResponse("Stats updated", content_type="text/plain")
     return response
 
-
-@api_view(['POST'])
-def signup(request):
-    if request.method == 'POST':
-        form = UserCreationForm(request.POST)
-        if form.is_valid():
-            user = form.save()
-            login(request, user)
-            return redirect('dashboard')  # Replace 'dashboard' with the URL name of your dashboard view
-    else:
-        form = UserCreationForm()
-    return render(request, 'signup.html', {'form': form})
-
-
-    
-@api_view(['POST'])
-def login(request):
-    if request.method == 'POST':
-        username = request.data['username']
-        password = request.data['password']
-
-        user = User.objects.get(username=username)
-        if user.check_password(password):
-            login(request, user)
-
-            return Response("Login Successful")
-        else:
-            return Response("Login Failed")
-
-
 @api_view(['GET'])
 def getTopics(request):
     topics = TopicTable.objects.all()
     serializer = TopicTableSerializer(topics, many=True)
     return Response(serializer.data)
 
+class UserLogin(APIView):
+    permission_classes = (permissions.AllowAny,)
+    authentication_classes = (SessionAuthentication, )
+
+    def post(self, request):
+        data = request.data
+        # assert 'username' in data, 'username is required'
+        # assert validate_password(data['password']), 'password is required'
+
+        serializer = UserLoginSerializer(data=data)
+        if serializer.is_valid(raise_exception=True):
+            user = serializer.check_user(data)
+            login(request, user)
+            return Response(status=status.HTTP_200_OK)
 
 
+
+class UserRegistration(APIView):
+    permission_classes = (permissions.AllowAny,)
+    # {"email":"ziz@gmail.com", "username":"zizizizi","password":"Rizz2010"}
+
+    def post(self, request):
+        data = request.data
+        # assert 'username' in data, 'username is required'
+        # assert validate_email(data['email']), 'email is required'
+        # assert validate_password(data['password']), 'password is required'
+        serializer = UserRegisterSerializer(data=data)
+        if serializer.is_valid(raise_exception=True):
+            user = serializer.create(data)
+            if user:
+                return Response(serializer.data ,status=status.HTTP_201_CREATED)
+
+        return Response( status=status.HTTP_400_BAD_REQUEST)
+
+
+class UserLogout(APIView):
+    def post(self, request):
+        logout(request)
+        return Response(status=status.HTTP_200_OK)
+
+
+class UserView(APIView):
+    permission_classes = (permissions.IsAuthenticated,)
+    authentication_classes = (SessionAuthentication,)
+
+
+    def get(self, request):
+        user = request.user
+        serializer = UserSerializer(user)
+        return Response({'user':serializer.data}, status=status.HTTP_200_OK)

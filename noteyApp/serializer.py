@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import QuestionAnswerTable, ContextTable, TopicTable, LeaderBoardTable, UserQuizTable, StatsTable
 from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
 
 
 
@@ -34,10 +35,6 @@ class UserQuizTableSerializer(serializers.ModelSerializer):
         fields='__all__'
 
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model=User
-        fields='__all__'
 
 
 class StatsTableSerializer(serializers.ModelSerializer):
@@ -45,18 +42,27 @@ class StatsTableSerializer(serializers.ModelSerializer):
         model=StatsTable
         fields='__all__'
 
-
-
-class UserAuthSerializer(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model=User
-        fields=['username','password']
-        extra_kwargs={'password':{'write_only':True,'required':True}}
+        fields=('username', 'email')
 
-
-    def create(self,validated_data):
-        user=User.objects.create_user(**validated_data)
-        user.is_staff = False
-        user.is_superuser = False
+class UserRegisterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=User
+        fields='__all__'
+        
+   
+    def create(self, clean_data):
+        user = User.objects.create_user(username=clean_data['username'], password=clean_data['password'], email=clean_data['email'])
         user.save()
         return user
+
+
+class UserLoginSerializer(serializers.Serializer):
+    username = serializers.CharField()
+    password = serializers.CharField()
+    def check_user(self, clean_data):
+        user = authenticate(username=clean_data['username'], password=clean_data['password'])
+        if not user:
+            raise serializers.ValidationError('Invalid username or password')
