@@ -9,6 +9,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import avatar from '../data/avatar.jpg';
 import { Cart, Chat, Notification, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
+import { Link } from 'react-router-dom';
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position='BottomCenter'>
@@ -71,11 +72,12 @@ const [user, setUser] = useState(null);
       />
       <TooltipComponent content='Profile' position='BottomCenter'>
         <div className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg'>
-          <img className='rounded-full w-8 h-8' src={avatar}
-          />
+          {/* <img className='rounded-full w-8 h-8' src={avatar}
+          /> */}
           <p>
-            <span className='text-gray-400 text-14'>Hi, </span> {'  '}
-            <span className='text-gray-400 font-bold ml-1 text-14'>Student</span>
+            <Link to='/signin'>
+              <span>Sign In</span>
+            </Link>
           </p>
           <MdKeyboardArrowDown/>
         </div>

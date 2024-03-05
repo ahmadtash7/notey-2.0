@@ -6,6 +6,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import {
   Homepage,
+  SignIn,
   Learn,
   Calendar,
   Employees,
@@ -85,6 +86,9 @@ const App = () => {
               {themeSettings && <ThemeSettings />}
 
               <Routes>
+                {/* Log In / Sign Up */}
+                <Route path="/signin" element={<SignIn />} />
+
                 {/* dashboard  */}
                 <Route path="/" element={<Homepage />} />
                 <Route path="/homepage" element={<Homepage />} />
