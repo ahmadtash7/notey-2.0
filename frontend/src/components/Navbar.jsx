@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { FiShoppingCart } from 'react-icons/fi';
 import { BsChatLeft } from 'react-icons/bs';
@@ -41,6 +41,23 @@ useEffect(() => {
   }
 }, [screenSize]);
 
+const [user, setUser] = useState(null);
+
+    useEffect(() => {
+        fetch('http://127.0.0.1:8000/noteyapp/dashboard/')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                // console.log(response)
+                return response.json();
+            })
+            .then( data => {
+              setUser(data[0]);
+            })
+            .catch(error => console.error('Error fetching user data:', error));
+    }, []);
+
   return (
     <div className='flex justify-between p-2 md:mx-6 relative'>
       <NavButton title="Menu" customFunc={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} color ={currentColor} icon={<AiOutlineMenu/>}
@@ -58,7 +75,7 @@ useEffect(() => {
           />
           <p>
             <span className='text-gray-400 text-14'>Hi, </span> {'  '}
-            <span className='text-gray-400 font-bold ml-1 text-14'>Michael</span>
+            <span className='text-gray-400 font-bold ml-1 text-14'>Student</span>
           </p>
           <MdKeyboardArrowDown/>
         </div>
