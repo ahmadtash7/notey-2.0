@@ -44,9 +44,45 @@ class UserQuizTable(models.Model):
 
     qaTableObjects = models.ManyToManyField(QuestionAnswerTable)
 
+    userAnswers = models.JSONField()
+
 
         
         
 
     def __str__(self):
-        return f"User: {self.user}, Date: {self.date}, QA: {self.qaTableObjects.all()}"
+        return f"User: {self.user}, Date: {self.date}, QA: {self.qaTableObjects.all()}, {self.userAnswers}"
+
+
+class StatsTable(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    quizzesTaken = models.IntegerField(default = 0)
+    questionsAttempted = models.IntegerField(default = 0)
+    questionsCorrect = models.IntegerField(default = 0)
+
+    def updateStats(self, user):
+        self.user = user
+        self.quizzesTaken = UserQuizTable.objects.filter(user=user).count() 
+        
+        userQuizObjects = UserQuizTable.objects.filter(user=user)
+
+        self.questionsAttempted = 0
+
+        for i in userQuizObjects:
+            self.questionsAttempted += i.qaTableObjects.count()
+
+        self.questionsCorrect = 0
+
+        for i in userQuizObjects:
+            userAnswers = i.userAnswers
+            qaObjects = i.qaTableObjects.all()
+            
+            for j in range(len(qaObjects)):
+                
+                if userAnswers[qaObjects[j].question] == qaObjects[j].answer:
+                    self.questionsCorrect += 1
+        
+        self.save()
+
+    def __str__(self):
+        return f"User: {self.user}, Quizzes Taken: {self.quizzesTaken}, Questions Attempted: {self.questionsAttempted}, Questions Correct: {self.questionsCorrect}"

@@ -6,5 +6,6 @@ urlpatterns = [
 # path('', views.getUserName),
 path('quiz/', views.createQuiz),
 path('dashboard/', views.dashboard),
+path('updateStats/', views.updateStatsView),
 
 ]
