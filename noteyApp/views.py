@@ -84,4 +84,11 @@ def login(request):
             return Response("Login Failed")
 
 
+@api_view(['GET'])
+def getTopics(request):
+    topics = TopicTable.objects.all()
+    serializer = TopicTableSerializer(topics, many=True)
+    return Response(serializer.data)
+
+
 
