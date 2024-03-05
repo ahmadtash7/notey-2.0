@@ -47,6 +47,17 @@ def createQuiz(request, num_questions=5):
     serializer = UserQuizTableSerializer(userQuiz)
     return Response(serializer.data)
 
+
+
+def updateStatsView(request):
+    user = User.objects.get(username="zaid")
+    userStats = StatsTable.objects.get_or_create(user=user)
+    userStats[0].updateStats(user)
+
+    response = HttpResponse("Stats updated", content_type="text/plain")
+    return response
+
+
 @api_view(['POST'])
 def signup(request):
     if request.method == 'POST':
@@ -60,15 +71,7 @@ def signup(request):
     return render(request, 'signup.html', {'form': form})
 
 
-def updateStatsView(request):
-    user = User.objects.get(username="zaid")
-    userStats = StatsTable.objects.get_or_create(user=user)
-    userStats[0].updateStats(user)
-
-    response = HttpResponse("Stats updated", content_type="text/plain")
-    return response
-
-
+    
 @api_view(['POST'])
 def login(request):
     if request.method == 'POST':

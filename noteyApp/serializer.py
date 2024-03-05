@@ -44,3 +44,19 @@ class StatsTableSerializer(serializers.ModelSerializer):
     class Meta:
         model=StatsTable
         fields='__all__'
+
+
+
+class UserAuthSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=User
+        fields=['username','password']
+        extra_kwargs={'password':{'write_only':True,'required':True}}
+
+
+    def create(self,validated_data):
+        user=User.objects.create_user(**validated_data)
+        user.is_staff = False
+        user.is_superuser = False
+        user.save()
+        return user
