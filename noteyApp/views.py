@@ -78,13 +78,16 @@ class UserLogin(APIView):
 
     def post(self, request):
         data = request.data
+        # print(data)
         # assert 'username' in data, 'username is required'
         # assert validate_password(data['password']), 'password is required'
 
         serializer = UserLoginSerializer(data=data)
         if serializer.is_valid(raise_exception=True):
             user = serializer.check_user(data)
-            login(request, user )
+            print(user)
+            login(request, user)
+            print(request.user)
             return Response(serializer.data,status=status.HTTP_200_OK)
 
 

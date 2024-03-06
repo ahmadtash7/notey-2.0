@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const SignUp = () => {
   const [formData, setFormData] = useState({
     username: '',
-    email: '',
+    // email: '',
     password: '',
   });
 
@@ -17,27 +17,72 @@ const SignUp = () => {
     }));
   };
 
+
+  
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+
+  //   try {
+  //     const response = await fetch('http://127.0.0.1:8000/noteyapp/signin/', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(formData),
+        
+  //     });
+  //     if (!response.ok) {
+  //       throw new Error('Failed to sign up');
+  //       console.log(JSON.stringify(formData));
+  //     }
+
+  //     console.log('Form submitted successfully');
+  //     // Reset the form after successful submission
+  //     setFormData({
+  //       username: '',
+  //       // email: '',
+  //       password: '',
+  //     });
+  //     setError(null);
+  //   } catch (error) {
+  //     console.error('Error signing up:', error.message);
+  //     setError('Failed to sign up. Please try again.');
+  //   }
+  // };
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     try {
+      // Fetch CSRF token from cookies
+      const csrftoken = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('csrftoken='))
+        .split('=')[1];
+
+        console.log(csrftoken);
+
+      
+  
       const response = await fetch('http://127.0.0.1:8000/noteyapp/signin/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'X-CSRFToken': csrftoken,  // Include CSRF token in headers
         },
         body: JSON.stringify(formData),
       });
-
+  
       if (!response.ok) {
         throw new Error('Failed to sign up');
       }
-
+  
       console.log('Form submitted successfully');
       // Reset the form after successful submission
+      window.location.href = '/homepage';
       setFormData({
         username: '',
-        // email: '',
         password: '',
       });
       setError(null);
@@ -46,6 +91,8 @@ const SignUp = () => {
       setError('Failed to sign up. Please try again.');
     }
   };
+  
+
 
   return (
     <div className="flex items-center justify-center h-screen">

@@ -69,3 +69,5 @@ class UserLoginSerializer(serializers.Serializer):
         )
         if not user:
             raise serializers.ValidationError('Invalid username or password')
+
+        return user
