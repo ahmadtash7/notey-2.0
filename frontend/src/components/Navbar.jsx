@@ -44,27 +44,27 @@ useEffect(() => {
 
 const [user, setUser] = useState(null);
 // const token = localStorage.getItem('token');
-console.log(token)
-    useEffect(() => {
-        fetch('http://127.0.0.1:8000/noteyapp/dashboard/', {
+// console.log(token)
+    // useEffect(() => {
+    //     fetch('http://127.0.0.1:8000/noteyapp/dashboard/', {
 
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                // 'AUTHORIZATION':  `Bearer ${localStorage.getItem('token')}`,
-              },})
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                // console.log(response)
-                return response.json();
-            })
-            .then( data => {
-              setUser(data[0]);
-            })
-            .catch(error => console.error('Error fetching user data:', error));
-    }, []);
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //             // 'AUTHORIZATION':  `Bearer ${localStorage.getItem('token')}`,
+    //           },})
+    //         .then(response => {
+    //             if (!response.ok) {
+    //                 throw new Error('Network response was not ok');
+    //             }
+    //             // console.log(response)
+    //             return response.json();
+    //         })
+    //         .then( data => {
+    //           setUser(data[0]);
+    //         })
+    //         .catch(error => console.error('Error fetching user data:', error));
+    // }, []);
 
   return (
     <div className='flex justify-between p-2 md:mx-6 relative'>

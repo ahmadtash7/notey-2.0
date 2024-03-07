@@ -23,7 +23,6 @@ from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
 
 
-
 @api_view(['GET'])
 def dashboard(request):
     user = User.objects.filter(username='zaid')
@@ -37,24 +36,24 @@ def createQuiz(request, num_questions=5):
     user = User.objects.get(username="zaid")
     qa = QuestionAnswerTable.objects.all()
     random_qa = qa.order_by('?')[:num_questions]
-    userQuiz = UserQuizTable.objects.create(user=user, date="2021-08-16",userAnswers = {})
+    userQuiz = UserQuizTable.objects.create(
+        user=user, date="2021-08-16", userAnswers={})
     userQuiz.qaTableObjects.set(random_qa)
     print(userQuiz.qaTableObjects.all())
     answers = {}
 
     # populate answers dictionary
-    for index,i in enumerate(random_qa):
+    for index, i in enumerate(random_qa):
         # answers[i.question] = i.answer
         answers[i.question] = ''
     userQuiz.userAnswers = answers
-
+    print(userQuiz)
     userQuiz.save()
 
     userStats = StatsTable.objects.get_or_create(user=user)
     print(userStats[0])
     userStats[0].updateStats(user)
 
-    
     # userStats.updateStats(user)
     user_qa = userQuiz.qaTableObjects.all()
     qa = QuestionAnswerTableSerializer(user_qa, many=True)
@@ -64,7 +63,6 @@ def createQuiz(request, num_questions=5):
     return Response({'data':serializer.data,'qa':qa.data},status=status.HTTP_200_OK)
 
 
-
 def updateStatsView(request):
     user = User.objects.get(username="zaid")
     userStats = StatsTable.objects.get_or_create(user=user)
@@ -72,6 +70,7 @@ def updateStatsView(request):
 
     response = HttpResponse("Stats updated", content_type="text/plain")
     return response
+
 
 @api_view(['GET'])
 def getTopics(request):
@@ -94,10 +93,9 @@ def getTopics(request):
 #             user = serializer.check_user(data)
 #             login(request, user)
 #             token, created = Token.objects.get_or_create(user=user)
-            
+
 #             print(token.key)
 #             return Response({'data':serializer.data,'token':token.key},status=status.HTTP_200_OK)
-
 
 
 # class UserRegistration(APIView):
@@ -106,7 +104,7 @@ def getTopics(request):
 
 #     def post(self, request):
 #         data = request.data
-        
+
 #         serializer = UserRegisterSerializer(data=data)
 #         if serializer.is_valid(raise_exception=True):
 #             user = serializer.create(data)

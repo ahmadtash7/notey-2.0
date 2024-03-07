@@ -9,7 +9,7 @@ import {
   SignIn,
   Learn,
   Calendar,
-  Employees,
+  Quiz,
   Stacked,
   Pyramid,
   Customers,
@@ -95,7 +95,7 @@ const App = () => {
 
                 {/* pages  */}
                 <Route path="/learn" element={<Learn />} />
-                <Route path="/employees" element={<Employees />} />
+                <Route path="/quiz" element={<Quiz />} />
                 <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
