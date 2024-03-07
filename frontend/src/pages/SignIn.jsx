@@ -56,12 +56,12 @@ const SignUp = () => {
   
     try {
       // Fetch CSRF token from cookies
-      const csrftoken = document.cookie
-        .split('; ')
-        .find(row => row.startsWith('csrftoken='))
-        .split('=')[1];
+      // const csrftoken = document.cookie
+      //   .split('; ')
+      //   .find(row => row.startsWith('csrftoken='))
+      //   .split('=')[1];
 
-        console.log(csrftoken);
+      //   console.log(csrftoken);
 
       
   
@@ -69,7 +69,8 @@ const SignUp = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-CSRFToken': csrftoken,  // Include CSRF token in headers
+          // 'X-CSRFToken': csrftoken,  // Include CSRF token in headers
+          // 'AUTHORIZATION':  `Bearer ${localStorage.getItem('token')}`,
         },
         body: JSON.stringify(formData),
       });
@@ -77,14 +78,28 @@ const SignUp = () => {
       if (!response.ok) {
         throw new Error('Failed to sign up');
       }
-  
+      
       console.log('Form submitted successfully');
+      // console.log(response.json());
+
+      const responseData = await response.json();
+      // console.log((responseData));
+      console.log(responseData['data'].username);
+      console.log(responseData['data'].password);
+      console.log(responseData['token']);
+
+      const token = responseData['token'];
+
+      // localStorage.setItem('token', token);
+
+      // axios.defaults.headers.common['Authorization'] = `Token ${token}`;
       // Reset the form after successful submission
       window.location.href = '/homepage';
       setFormData({
         username: '',
         password: '',
       });
+      
       setError(null);
     } catch (error) {
       console.error('Error signing up:', error.message);

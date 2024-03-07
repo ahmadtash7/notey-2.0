@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0j_e3$zc2u%w8j&ymmrj2cx66_1%&(4l@rv+8c)0wrh-kel56z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -61,26 +62,9 @@ CORS_ALLOWED_ORIGINS = [
     
 ]
 
-CORS_ALLOW_HEADERS = [
-    'accept',
-    'accept-encoding',
-    'authorization',
-    'content-type',
-    'dnt',
-    'origin',
-    'user-agent',
-    'x-csrftoken',
-    'x-requested-with',
-]
 
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]
+
+
 
 
 CORS_ALLOW_CREDENTIALS = True
@@ -107,20 +91,18 @@ WSGI_APPLICATION = 'notey.wsgi.application'
 
 REST_FRAMEWORK = {
 
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.SessionAuthentication',
-    ),
+    # 'DEFAULT_PERMISSION_CLASSES': (
+    #     'rest_framework.permissions.IsAuthenticated',
+    # ),
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     # 'rest_framework.authentication.SessionAuthentication',
+    #     'rest_framework.authentication.TokenAuthentication',
+    # ),
 }
 
 # settings.py
 
-SIMPJWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
-}
+
 
 
 # Database

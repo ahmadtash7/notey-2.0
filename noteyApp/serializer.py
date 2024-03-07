@@ -45,7 +45,7 @@ class StatsTableSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model=User
-        fields=('username', 'email')
+        fields='__all__'
 
 class UserRegisterSerializer(serializers.ModelSerializer):
     class Meta:
