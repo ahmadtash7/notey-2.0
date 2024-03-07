@@ -39,7 +39,7 @@ def createQuiz(request, num_questions=5):
     random_qa = qa.order_by('?')[:num_questions]
     userQuiz = UserQuizTable.objects.create(user=user, date="2021-08-16",userAnswers = {})
     userQuiz.qaTableObjects.set(random_qa)
-
+    print(userQuiz.qaTableObjects.all())
     answers = {}
 
     # populate answers dictionary
@@ -56,9 +56,12 @@ def createQuiz(request, num_questions=5):
 
     
     # userStats.updateStats(user)
+    user_qa = userQuiz.qaTableObjects.all()
+    qa = QuestionAnswerTableSerializer(user_qa, many=True)
+
 
     serializer = UserQuizTableSerializer(userQuiz)
-    return Response(serializer.data)
+    return Response({'data':serializer.data,'qa':qa.data},status=status.HTTP_200_OK)
 
 
 
