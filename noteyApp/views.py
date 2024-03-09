@@ -27,8 +27,12 @@ from django.core.exceptions import ValidationError
 def dashboard(request):
     user = User.objects.filter(username='zaid')
     print(user)
+    stats = StatsTable.objects.get()
+    stat_serializer = StatsTableSerializer(stats)
     serializer = UserSerializer(user, many=True)
-    return Response(serializer.data)
+    userqa = UserQuizTable.objects.filter(user=user)
+    n_topics = TopicTable.objects.filter()
+    return Response({'data':serializer.data,'stats':stat_serializer.data}, status=status.HTTP_200_OK)
 
 
 @api_view(['GET'])
@@ -76,6 +80,14 @@ def updateStatsView(request):
 def getTopics(request):
     topics = TopicTable.objects.all()
     serializer = TopicTableSerializer(topics, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
+def showStats(request):
+    user = User.objects.get(username="zaid")
+    # userStats = StatsTable.objects.get_or_create(user=user)
+    # userStats[0].updateStats(user)
+    serializer = StatsTableSerializer()
     return Response(serializer.data)
 
 # class UserLogin(APIView):
