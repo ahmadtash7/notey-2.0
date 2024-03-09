@@ -14,7 +14,7 @@ function fetchDataFromBackend() {
       }
       // console.log(response);
       const responseData = response.json();
-      console.log(responseData[0]);
+      // console.log(responseData);
       return responseData;
     })
     .catch(error => {
@@ -33,7 +33,9 @@ const Quiz = () => {
     const fetchData = async () => {
       try {
         const result = await fetchDataFromBackend();
+        
         setData(result);
+        
       } catch (error) {
         setError(error);
       } finally {
@@ -44,21 +46,28 @@ const Quiz = () => {
     fetchData();
   }, []);
 
+  if (loading) return <p>Loading...</p>;
+  
   return (
+    console.log(data),
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Quiz" />
-      {/* {data.userAnswers && (
-        <div>
-          {Object.entries(data.userAnswers).map(([question, answer]) => (
-            <div key={question}>
-              <p>
-                <strong>{question}</strong>: {answer}
-              </p>
-            </div>
-          ))}
-        </div>
-      )} */}
+      
+      {data && (
+        data['qa'].map((item, index) => (
+          <div key={index}>
+            <h1>{item.question}</h1>
+            <p>{item.answer}</p>
+            <p>{item.distractors[0]}</p>
+            <p>{item.distractors[1]}</p>
+            <p>{item.distractors[2]}</p>
+          </div>
+        ))
+      )}
+      
     </div>
+          
+
   );
 };
 export default Quiz;

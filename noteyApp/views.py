@@ -21,6 +21,7 @@ from rest_framework.authtoken.models import Token
 
 from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
+import datetime
 
 
 @api_view(['GET'])
@@ -41,7 +42,7 @@ def createQuiz(request, num_questions=5):
     qa = QuestionAnswerTable.objects.all()
     random_qa = qa.order_by('?')[:num_questions]
     userQuiz = UserQuizTable.objects.create(
-        user=user, date="2021-08-16", userAnswers={})
+        user=user, date=datetime.date.today(), userAnswers={})
     userQuiz.qaTableObjects.set(random_qa)
     print(userQuiz.qaTableObjects.all())
     answers = {}
