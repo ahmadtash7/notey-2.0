@@ -2,6 +2,8 @@ import { ordersData, contextMenuItems, ordersGrid } from '../data/dummy';
 import React, { useEffect, useState } from 'react';
 import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Inject } from '@syncfusion/ej2-react-grids';
 import { Header } from '../components';
+import { NavLink } from 'react-router-dom';
+import { useStateContext } from '../contexts/ContextProvider';
 
 function fetchDataFromBackend() {
   const apiUrl = 'http://127.0.0.1:8000/noteyapp/learn/';
@@ -25,12 +27,14 @@ const Learn = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { currentColor } = useStateContext();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const result = await fetchDataFromBackend();
         setData(result);
+        console.log(result)
       } catch (error) {
         setError(error);
       } finally {
@@ -49,38 +53,18 @@ const Learn = () => {
     return <div>Error: {error.message}</div>;
   }
 
-  // Assuming data is an array of objects, get all unique property names
-  const allColumns = data.reduce((columns, row) => {
-    Object.keys(row).forEach(column => {
-      if (!columns.includes(column)) {
-        columns.push(column);
-      }
-    });
-    return columns;
-  }, []);
-
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-      <Header category="Page" title="Topics" />
-      {data && (
-        <GridComponent
-          id="gridcomp"
-          dataSource={data}
-          allowPaging
-          allowSorting
-          allowExcelExport
-          allowPdfExport
-          contextMenuItems={contextMenuItems}
-          editSettings={editing}
-        >
-          <ColumnsDirective>
-            {allColumns.map((column, index) => (
-              <ColumnDirective key={index} field={column} headerText={column} />
+      <Header title="Topics" />
+            {data.map((topic, index) => (
+              <div key={index} className='m-2 md:m-5 mt-6 p-2 rounded-3xl' style={{ background: currentColor }}>
+                <NavLink to='/homepage'>
+                  <span>{index}</span>
+                  <span>{topic['topic']}</span>
+                </NavLink>
+                </div>
+
             ))}
-          </ColumnsDirective>
-          <Inject services={[Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport]} />
-        </GridComponent>
-      )}
     </div>
   );
 };
