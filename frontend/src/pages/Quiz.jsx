@@ -14,7 +14,7 @@ function fetchDataFromBackend() {
       }
       // console.log(response);
       const responseData = response.json();
-      console.log(responseData);
+      console.log(responseData[0]);
       return responseData;
     })
     .catch(error => {
@@ -47,7 +47,17 @@ const Quiz = () => {
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <Header category="Page" title="Quiz" />
-      
+      {/* {data.userAnswers && (
+        <div>
+          {Object.entries(data.userAnswers).map(([question, answer]) => (
+            <div key={question}>
+              <p>
+                <strong>{question}</strong>: {answer}
+              </p>
+            </div>
+          ))}
+        </div>
+      )} */}
     </div>
   );
 };
