@@ -56,11 +56,27 @@ const Quiz = () => {
       {data && (
         data['qa'].map((item, index) => (
           <div key={index}>
+            <br />
             <h1>{item.question}</h1>
-            <p>{item.answer}</p>
+            {/* <p>{item.answer}</p>
             <p>{item.distractors[0]}</p>
             <p>{item.distractors[1]}</p>
-            <p>{item.distractors[2]}</p>
+            <p>{item.distractors[2]}</p> */}
+            <input type="radio" id="answer_{item.id}" name="question_{item.id}" value="{item.answer}"/>
+<label for={item.answer}>{item.answer}</label>
+<br />
+<input type="radio" id="distractor1_{item.id}" name="question_{item.id}" value={item.distractors[3]}/>
+<label for="distractor1_{item.id}">{item.distractors[3]}</label>
+<br />
+
+<input type="radio" id="distractor2_{item.id}" name="question_{item.id}" value={item.distractors[1]}/>
+<label for="distractor2_{item.id}">{item.distractors[1]}</label>
+<br />
+
+<input type="radio" id="distractor3_{item.id}" name="question_{item.id}" value={item.distractors[2]}/>
+<label for="distractor3_{item.id}">{item.distractors[2]}</label>
+<br />
+
           </div>
         ))
       )}
