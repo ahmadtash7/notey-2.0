@@ -1,0 +1,1302 @@
+[
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British government grant separate electorates to Muslims in India?",
+      "answer": "They accepted the right of Muslims to have separate electorates",
+      "distractors": {
+        "1": "They wanted to give more responsibility to Muslims",
+        "2": " They wanted to give more responsibility to Muslims",
+        "3": " They wanted to give more responsibility to Muslims"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did many Muslims support the idea of Partition in Bengal during the early 20th century?",
+      "answer": "They believed it would give them dominance in the new province",
+      "distractors": {
+        "1": "They believed it would weaken India and Indian unity",
+        "2": " They believed it would be a sensible policy",
+        "3": " They believed it would be easier to administer"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event occurred at Jallianwala Bagh park in 1919?",
+      "answer": "General Dyer banned public meetings and fired troops on a crowded gathering, resulting in high casualties.",
+      "distractors": {
+        "1": "General Dyer banned public meetings",
+        "2": " General Dyer fired troops on crowd",
+        "3": " General Dyer banned public meetings"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Muslim leaders found the Muslim League in 1906?",
+      "answer": "To counter the influence of the Indian National Congress and protect Muslim interests",
+      "distractors": {
+        "1": "To fight against the partition of Bengal",
+        "2": " To fight against the British",
+        "3": " To fight against the Hindus"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the Hindu boycott of British goods in India around 1905?",
+      "answer": "To protest against the Partition of Bengal",
+      "distractors": {
+        "1": "To protest against the British goods",
+        "2": " To protest against the British goods",
+        "3": " To protest against the British goods"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the situation in India in 1919 regarding the rights of citizens?",
+      "answer": "There was a lack of due process and legal protections, and citizens feared a communist-style revolution.",
+      "distractors": {
+        "1": "There was a lack of due process and legal protections",
+        "2": " There was a lack of due process and legal protections",
+        "3": " There was a lack of due process and legal protections"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Hindus oppose the partition of Bengal in 1905?",
+      "answer": "They believed it was a deliberate attempt by the British to divide and rule.",
+      "distractors": {
+        "1": "They thought it would bring an end to Hindu oppression",
+        "2": " They thought it would weaken Hindu unity and its influence in the new East Bengal",
+        "3": " They thought it would bring an end to Hindu oppression"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the Montague-Chelmsford Reforms and what were their consequences for the people of the sub-continent?",
+      "answer": "The Montague-Chelmsford Reforms were a series of measures implemented by the British government in 1919 that reserved sweeping powers for itself while providing minor concessions to political parties, with the condition of accepting the right of British control. The reforms disappointed both Muslims and Hindus, leading to increased resentment among political parties due to the inclusion of the right of arrest without a warrant and detention without bail.",
+      "distractors": {
+        "1": "The reforms were a series of measures implemented by the British government",
+        "2": " The reforms disappointed both Muslims and Hindus",
+        "3": " The reforms were a series of measures implemented by the British government"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the agreement between the Indian National Congress and the Muslim League in December 1916?",
+      "answer": "The agreement resulted in the ML gaining the right to separate electorates and one-third of seats in councils.",
+      "distractors": {
+        "1": "The agreement resulted in the ML gaining the right to separate electorates and onethird of seats in councils",
+        "2": " The agreement resulted in the ML gaining the right to separate electorates and onethird of seats in councils",
+        "3": " The agreement resulted in the ML gaining the right to separate electorates and onethird of seats in councils"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Lucknow Pact?",
+      "answer": "It was an agreement on a scheme of constitutional reforms reached between the Muslim League and the Congress.",
+      "distractors": {
+        "1": "It was an agreement on a scheme of constitutional reforms reached between the Hindus and the Muslims",
+        "2": " It was an agreement on a scheme of constitutional reforms reached between the Hindus and the Muslims",
+        "3": " It was an agreement on a scheme of constitutional reforms reached between the Muslims and Hindus"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Muslims form the Muslim League in 1906?",
+      "answer": "To have their own political party and protect their political rights",
+      "distractors": {
+        "1": "To have a better understanding with the British",
+        "2": " To have a better understanding with the British",
+        "3": " To have a better understanding with the British"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the result of the agreement between the Congress and the Muslim League in 1946?",
+      "answer": "The creation of separate electorates and autonomy for provinces.",
+      "distractors": {
+        "1": "The creation of separate electorates and autonomy for provinces",
+        "2": " The creation of separate electorates and autonomy for provinces",
+        "3": " The creation of separate electorates and autonomy for provinces"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Muslims in India feel the need to establish their own political party in 1905?",
+      "answer": "To counter the growing influence of Hindu nationalist groups demanding forced conversion of Muslims to Hinduism",
+      "distractors": {
+        "1": "To show that they had a better understanding with the British",
+        "2": " To show that they had the same influence as the Congress with the British",
+        "3": " To show that they had the same influence as the Congress with the British"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslims migrate to Afghanistan during the Khilafat Movement?",
+      "answer": "To protest against the British government",
+      "distractors": {
+        "1": "To join the noncooperation movement",
+        "2": " To join the nationalist government in Turkey",
+        "3": " To seek a better life"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslims in India form the Khalifat Movement after World War I?",
+      "answer": "To protest the dissolution of the Ottoman Caliphate",
+      "distractors": {
+        "1": "To show their support for the Allies",
+        "2": " To show their anger at the British",
+        "3": " To show their support for the Germans"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event led to the end of the Swaraj Movement in India?",
+      "answer": "The abolition of the institution of the Caliph by the Turkish government under Kemal Ataturk in 1924",
+      "distractors": {
+        "1": "The Muslim migration to Afghanistan in 1920",
+        "2": " The Chaura Chari incident",
+        "3": " The Muslim Leagues opposition to the Muslim migration"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslim migration (hijrat) to Afghanistan fail in 1920?",
+      "answer": "The Afghan government was hostile to the migrants upon their return",
+      "distractors": {
+        "1": "The Muslim League opposed this as they wanted them to stay and fight for their cause",
+        "2": " The Muslim League opposed this as they wanted them to stay and fight for their cause",
+        "3": " The Muslim League opposed this as they wanted them to stay and fight for their cause"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some reasons why the Khilafat Movement lost its effectiveness in the early 1920s?",
+      "answer": "Poor leadership, lack of clarity in objectives, and opposition from the Muslim League",
+      "distractors": {
+        "1": "The Hindus hatred of Muslims",
+        "2": " The Hindus hatred of Muslims",
+        "3": " The Hindus hatred of Muslims"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What led to the failure of the Muslim migration (hijrat) to Afghanistan in 1920?",
+      "answer": "The hostility of the Afghan government towards the migrants",
+      "distractors": {
+        "1": "The Muslim Leagues opposition to the migration",
+        "2": " The Muslim Leagues refusal to accept the migrants",
+        "3": " The Muslim Leagues refusal to accept the migrants"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event marked the end of the Swaraj Movement in India?",
+      "answer": "The abolition of the caliphate by the Turkish government under Kemal Ataturk in 1924",
+      "distractors": {
+        "1": "The Muslim migration to Afghanistan in 1920",
+        "2": " The Chaura Chari incident",
+        "3": " The Muslim Leagues opposition to the Muslim migration"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Khalifat Movement arise after World War I?",
+      "answer": "The British and French wanted to punish the Turks for their support of the Germans",
+      "distractors": {
+        "1": "The Turks wanted to be punished for their support of the Germans",
+        "2": " The Turks wanted to be punished for their support of the Germans",
+        "3": " The Turks wanted to be punished for their support of the Germans"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Khilafat Movement fail in its objective of achieving self-rule for Muslims in India?",
+      "answer": "The Muslim leaders were imprisoned, the movement became less effective, and the objectives were unclear due to the involvement of Hindu leaders who had different motives.",
+      "distractors": {
+        "1": "The Muslim leaders were not strong enough to carry out the movement",
+        "2": " The Muslim leaders were not strong enough to carry out the movement",
+        "3": " The Muslim leaders were not strong enough to carry out the movement"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the reasons why the Khilafat Movement lost momentum after 1921?",
+      "answer": "Withdrawal of Gandhi's support, Refusal of Britain to accept the demands of the Movement, Decision of Mustafa Kamal Ataturk to form a nationalist government in Turkey, Mopla violence, Imprisonment of leaders such as Maulana and Muhammad Ali",
+      "distractors": {
+        "1": "The refusal of Britain to accept the demands of the Movement",
+        "2": " The decision of Mustafa Kamal Ataturk to form a nationalistgovernment in Turkey",
+        "3": " The involvement of Hindumajority grouping was welcomed by many Muslims"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Muslims resent the Congress Rule in the Sub-Continent before 1947?",
+      "answer": "They were subjected to abuse, killings, and forced adoption of Hindi as the official language.",
+      "distractors": {
+        "1": "They were forced to sing Bande Matram",
+        "2": " They were forced to bow before Gandhis picture each day",
+        "3": " They were forced to sing Bande Matram"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the 14 demands made by the Muslim League in the context provided?",
+      "answer": "The creation of a separate homeland",
+      "distractors": {
+        "1": "The creation of two separate nations",
+        "2": " The creation of a separate nation",
+        "3": " The creation of a separate nation"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the third Congress session mentioned in the context?",
+      "answer": "The Congress was absent again",
+      "distractors": {
+        "1": "The Congress was successful",
+        "2": " The Congress was unsuccessful",
+        "3": " The Congress was successful"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why was the conference unsuccessful?",
+      "answer": "Gandhi refused to recognize the rights of the Muslims",
+      "distractors": {
+        "1": "Gandhi was unreasonable about the rights of minorities",
+        "2": " Gandhi refused to accept the demands of the Muslims",
+        "3": " Gandhi refused to accept the 14 Points of the QuaideAzam"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslims celebrate the Day of Deliverance?",
+      "answer": "Because Congress Rule had been hated due to the atrocities committed against the Muslims.",
+      "distractors": {
+        "1": "Because they were able to celebrate because Britain was at war with Germany",
+        "2": " Because they were able to celebrate because Britain was at war with Germany",
+        "3": " Because they were able to celebrate because Britain was at war with Germany"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of granting provincial autonomy in the context provided?",
+      "answer": "It provided additional rights for the local population to vote and established provisions for a federal government at the center.",
+      "distractors": {
+        "1": "It allowed the governors to intervene in cases of public order",
+        "2": " It allowed the governors to decide to participate politically in affairs which concerned the subcontinent",
+        "3": " It allowed the governors to decide to participate politically in affairs which concerned the subcontinent"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did some Muslims oppose the Congress Rule in India before 1947?",
+      "answer": "They believed it made degrading remarks about their faith and some saw it as an attempt to convert them to Hinduism",
+      "distractors": {
+        "1": "They thought it was an attempt to convert them to Hinduism",
+        "2": " They thought it was an attempt to convert them to Hinduism",
+        "3": " They thought it was an attempt to convert them to Hinduism"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the key features of the basic education scheme introduced by Gandhi?",
+      "answer": "Making Hindi the sole language",
+      "distractors": {
+        "1": "Making cotton spinning by hand a part of curriculum",
+        "2": " Making religious education",
+        "3": " Making cotton spinning by hand a part of curriculum"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the 14 demands outlined in the context for any future negotiations with either Congress or the British government?",
+      "answer": "Formation of a separate homeland",
+      "distractors": {
+        "1": "The Hindus and Muslims were two separate nations",
+        "2": " The Hindus and Muslims were two separate nations",
+        "3": " The Hindus and Muslims were two separate nations"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the minority demands in the 1st Congress?",
+      "answer": "They were unable to reach a conclusion",
+      "distractors": {
+        "1": "They were accepted by the government",
+        "2": " They were not accepted by the government",
+        "3": " They were not accepted by the government"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the granting of provincial autonomy in the Sub-Continent before 1947?",
+      "answer": "It provided additional rights for the local population to vote",
+      "distractors": {
+        "1": "It allowed the local population to decide to participate politically in affairs which concerned the subcontinent",
+        "2": " It allowed the local population to devise and carry out its own programmes",
+        "3": " It allowed the local population to vote some five times the previous numbers"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was granted to citizens of India in 1928 according to the context?",
+      "answer": "Fundamental rights including freedom of conscience and liberty",
+      "distractors": {
+        "1": "Dominion Status",
+        "2": " Dominion Status",
+        "3": " Protection of minorities"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Second Round Table Conference held in India in 1930?",
+      "answer": "It broke up amidst threats that the British would impose a solution if no agreement could be reached",
+      "distractors": {
+        "1": "It was held without the attendance of the Congress",
+        "2": " It was held without the attendance of the Congress",
+        "3": " It was held without the attendance of the Congress"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind Gandhi's movement against the Cripps Mission proposals?",
+      "answer": "The British would not agree to Partition",
+      "distractors": {
+        "1": "The Muslims rejected them",
+        "2": " The Congress Party wanted immediate and full control over the central government",
+        "3": " The Muslims rejected them"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the first major election fought by the Muslim League in the Sub-Continent?",
+      "answer": "Muslims won only 109 seats reserved for Muslims",
+      "distractors": {
+        "1": "Muslims won absolute majorities in 5 provinces",
+        "2": " Muslims won absolute majorities in 4 provinces",
+        "3": " Muslims won absolute majorities in 5 provinces"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of granting provincial autonomy in India before 1947?",
+      "answer": "It provided additional rights for the local population to vote and increased participation in political affairs.",
+      "distractors": {
+        "1": "It allowed the local population to decide to participate in affairs concerning the subcontinent",
+        "2": " It allowed the local population to devise and carry out their own programmes and be responsible to their own legislature",
+        "3": " It allowed the local population to vote some 5times the previous numbers at 35 million in total"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the impact of the 1937 Provincial Elections on the relationship between the Muslim League and the Indian National Congress?",
+      "answer": "The Muslim League became increasingly alienated from the Indian National Congress.",
+      "distractors": {
+        "1": "The Muslim League became more in touch with ordinary Muslims",
+        "2": " The Muslim League became more in touch with ordinary Muslims",
+        "3": " The Muslim League became more in touch with ordinary Muslims"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Gandhi refuse to recognize the rights of the Muslims during the Conference?",
+      "answer": "He did not accept the demands about the rights of minorities.",
+      "distractors": {
+        "1": "He did not want to be a Muslim",
+        "2": " He did not want to be a Muslim",
+        "3": " He did not want to be a Muslim"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the name devised by Chaudhry Rehmat Ali in 1933?",
+      "answer": "Now or Never",
+      "distractors": {
+        "1": "The Name of a Book",
+        "2": " The Name of a Pamphlet",
+        "3": " The Name of a Book"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslims reject the partition plan proposed by the British in the early 20th century?",
+      "answer": "The British would not agree to immediate and full control over the central government.",
+      "distractors": {
+        "1": "The Muslims were not satisfied with the British plan",
+        "2": " The Muslims were not satisfied with the British plan",
+        "3": " The Muslims were not satisfied with the British plan"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the talks between Gandhi and Jinnah regarding the creation of a Muslim homeland in India?",
+      "answer": "They failed to reach an agreement due to differences over the size of the proposed Muslim homeland.",
+      "distractors": {
+        "1": "They reached an agreement on the principle of the Executive Council",
+        "2": " They reached an agreement on the number of Muslim provinces included in Pakistan",
+        "3": " They reached an agreement on the method of selection"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the talks between Gandhi and Jinnah regarding a Muslim homeland in India?",
+      "answer": "They failed to reach an agreement due to differences over the size of the proposed homeland.",
+      "distractors": {
+        "1": "They reached an agreement on the principle of the Executive Council",
+        "2": " They reached an agreement on the number of Muslim provinces included in Pakistan",
+        "3": " They reached an agreement on the principle of the Executive Council"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslim League reject the Mission's proposal in 1946?",
+      "answer": "The British did not agree to Partition",
+      "distractors": {
+        "1": "The British did not want to Partition",
+        "2": " The British did not want to Partition",
+        "3": " The British did not want to Partition"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the Quit India Resolution passed by Gandhi in 1942?",
+      "answer": "It signaled the end of British rule in India",
+      "distractors": {
+        "1": "It was a sign of the end of British rule in India",
+        "2": " It was a sign of the end of British rule in India",
+        "3": " It was a sign of the end of British rule in India"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for Quaid-e-Azam's call for peaceful protest in 1946?",
+      "answer": "To stop the British from giving in to the Congress.",
+      "distractors": {
+        "1": "To stop the British from giving in to the Congress",
+        "2": " To stop the British from giving in to the Congress",
+        "3": " To stop the British from giving in to the Congress"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the consequences of the Muslim League's rejection of the Cripps Mission proposals in 1946?",
+      "answer": "Imprisonment of Muslim leaders following Quit India protests",
+      "distractors": {
+        "1": "Breakdown of relations between Congress and Muslim",
+        "2": " Failure to reach agreement from JinnahGandhi talks",
+        "3": " Failure to persuade Jinnah to agree to safeguards for Muslims in a united India"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main disagreement between Gandhi and Jinnah regarding India's independence?",
+      "answer": "Gandhi wanted to achieve independence for all Indians as a united nation, while Jinnah wanted to settle the issue of partition first and then seek independence.",
+      "distractors": {
+        "1": "Jinnah wanted to settle the issue of partition first and then seek independence",
+        "2": " Gandhi wanted to achieve independence for all Indians as a united nation",
+        "3": " Gandhi wanted to settle the issue of partition first and then seek independence"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the rejection of the Cripps Mission by the Indian National Congress and the Muslim League in 1942?",
+      "answer": "They wanted full control of India's affairs",
+      "distractors": {
+        "1": "They wanted to have control of all government departments",
+        "2": " They wanted to have control of all government departments",
+        "3": " They wanted to have control of all government departments"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What led to the breakdown of relations between Congress and Muslim League in India during World War II?",
+      "answer": "Rejection of Cripps Mission's proposals",
+      "distractors": {
+        "1": "Failure to reach agreement from JinnahGandhi talks",
+        "2": " Imprisonment after Quit India protests",
+        "3": " Failure to reach agreement from JinnahGandhi talks"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the negotiations between the British government and Indian political leaders in 1946?",
+      "answer": "The proposal for an interim government and an All-India Commission was rejected.",
+      "distractors": {
+        "1": "The British government formed an AllIndia Commission",
+        "2": " The British government formed an interim government",
+        "3": " The British government formed an AllIndia Commission"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the first person to propose the name \"Pakistan\" for a separate homeland?",
+      "answer": "Chaudhri Ali",
+      "distractors": {
+        "1": "The AllIndia Muslim League",
+        "2": " The AllIndia Muslim League",
+        "3": " The Pakistan National Movement"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What role did Muhammad Ali Jinnah play in the Pakistan Movement?",
+      "answer": "He set out to reform the Muslim League at grassroots level and ensured that the League would only accept a solution to the sub-continent that ensured partition.",
+      "distractors": {
+        "1": "He opposed the proposals of the Cripps Mission that saw Dominion status for the subcontinent",
+        "2": " He set out the demands of future negotiations with Congress andor the British Government",
+        "3": " He set out the demands of future negotiations with Congress andor the British Government"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the \"Now or Never\" pamphlet written by Muhammad Ali Jinnah in 1933?",
+      "answer": "To propose the idea of a separate Muslim homeland",
+      "distractors": {
+        "1": "To show his views on the future of Pakistan",
+        "2": " To show his views on the partition of Pakistan",
+        "3": " To show his views on the future of Pakistan"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the philosopher, politician, and poet who advocated for a separate country for Muslims and was knighted by the British?",
+      "answer": "Muhammad Ali Jinnah",
+      "distractors": {
+        "1": "Muhammad Ali Khan",
+        "2": " Muhammad Ali Khan",
+        "3": " Muhammad Ali Khan"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the first important Muslim leader to advocate for the creation of a separate Muslim state in India?",
+      "answer": "Allama Iqbal",
+      "distractors": {
+        "1": "Rehmat Ali",
+        "2": " Jinnah",
+        "3": " Rehmat Ali"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did Iqbal do in 1930 that was significant for the Muslims of the Sub-Continent?",
+      "answer": "He demanded a separate state for Pakistan",
+      "distractors": {
+        "1": "He recognised Jinnah as the natural leader of the Muslims in their demands for a separate homeland",
+        "2": " He recognised the talent in Jinnah as the natural leader of the Muslims in their demands for a separate homeland",
+        "3": " He advocated the need for a solid foundation for Muslims in Islam and the Holy Quran"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the first Muslim leader to advocate for the creation of a separate Muslim state in India?",
+      "answer": "Allama Iqbal",
+      "distractors": {
+        "1": "Jinnah",
+        "2": " Rahmat Ali",
+        "3": " Rahmat Ali"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the name devised by Chaudhry Rehmat Ali in 1933?",
+      "answer": "Pakistan",
+      "distractors": {
+        "1": "Afghanistan",
+        "2": " Balochistan",
+        "3": " Sindh"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the major challenges facing the new government of Pakistan after its independence in 1947?",
+      "answer": "The shortage of properly qualified and experienced personnel to run a government department",
+      "distractors": {
+        "1": "The shortage of 750 million rupees under the final settlement",
+        "2": " The shortage of the armed forces and military assets",
+        "3": " The shortage of money to run the government department"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Quaid-e-Azam's role in creating a relief fund for refugees during the partition of India and Pakistan in 1947?",
+      "answer": "He created the Quaid-e-Azam Relief Fund",
+      "distractors": {
+        "1": "He set up the State Bank of Pakistan",
+        "2": " He made the Kashmir problem known to the world",
+        "3": " He appealed to the people to help the refugees"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did many Muslims want to live in a Muslim nation during 1947?",
+      "answer": "They feared being killed",
+      "distractors": {
+        "1": "They wanted to live in a Muslim nation",
+        "2": " They wanted to live in a Muslim nation",
+        "3": " They wanted to live in a Muslim nation"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the major challenges facing the new government of Pakistan after its independence in 1947?",
+      "answer": "The shortage of properly qualified and experienced personnel to run government departments.",
+      "distractors": {
+        "1": "The shortage of money to run government departments",
+        "2": " The shortage of armed forces and military assets",
+        "3": " The shortage of money to run government departments"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the major challenges faced by the new government of Pakistan after its independence in 1947?",
+      "answer": "The problem of coping with the Muslim refugees from India.",
+      "distractors": {
+        "1": "The division of the armed forces and military assets",
+        "2": " The problem of the Canal Water Dispute",
+        "3": " The shortage of properly qualified and experienced personnel"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event threatened the agriculture in the Punjab region in the mid-20th century?",
+      "answer": "India shutting off waters flowing into Pakistan from Firozpur headworks",
+      "distractors": {
+        "1": "India shut off waters flowing into Pakistan",
+        "2": " Indus Water Treaty",
+        "3": " The flood in the Punjab"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What is a major challenge facing education in Pakistan according to the context provided?",
+      "answer": "Lack of government investment due to excessive military expenditure",
+      "distractors": {
+        "1": "Lack of government investment because of the military expenditure",
+        "2": " Lack of government investment because of the military expenditure",
+        "3": " Lack of government investment because of the military expenditure"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major challenge facing the education system in Pakistan in the early years after its formation?",
+      "answer": "Lack of government investment due to excessive military expenditure",
+      "distractors": {
+        "1": "Lack of government investment in education",
+        "2": " Lack of government investment in education",
+        "3": " Lack of government investment in education"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What is the current state of primary education in Pakistan?",
+      "answer": "The literacy rate in Pakistan is less than 30%, with female literacy being the worst among the population, and the primary sector faces serious under-funding and high dropout rates.",
+      "distractors": {
+        "1": "The literacy rate in Pakistan is less than 30",
+        "2": " Less than 3 of Pakistans budget has been spent on education",
+        "3": " The literacy rate in Pakistan is less than 30"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did General Ayub Khan take control of Pakistan's government in 1958?",
+      "answer": "To restore stability until the army could take control",
+      "distractors": {
+        "1": "To make East Pakistans politicians have more say in the running of the central government",
+        "2": " To make East Pakistans politicians have more say in the running of the central government",
+        "3": " To make East Pakistans politicians have more say in the running of the central government"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a significant achievement of Ayub Khan's domestic policies during his tenure as President of Pakistan?",
+      "answer": "Land redistribution to farmers and agricultural revitalization leading to record crop outputs",
+      "distractors": {
+        "1": "National growth rate rose more than 7",
+        "2": " Four tier structure of government allowing elections at various levels",
+        "3": " National growth rate rose more than 7"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the primary goal of the agricultural reforms implemented by the leader in the given context?",
+      "answer": "To redistribute land to farmers and revitalize agriculture",
+      "distractors": {
+        "1": "To set up an oil refinery and set up an export bonus scheme",
+        "2": " To set up a mineral development corporation and set up an oil refinery",
+        "3": " To set up an oil refinery and set up an export bonus scheme"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the economic development efforts undertaken by the government in the given context?",
+      "answer": "To enable economic growth through industrial developments funded by loans from the West.",
+      "distractors": {
+        "1": "To control the population through a family planning programme",
+        "2": " To improve medical facilities and control the population through a family planning programme",
+        "3": " To deflect increased criticism of his government by highlighting the reforms which in the main only benefited the wealthy"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for Ayub Khan's decision to take control of the government in Pakistan in 1958?",
+      "answer": "He felt the army should take control until stability had been restored",
+      "distractors": {
+        "1": "He wanted to get more say in the running of the central government",
+        "2": " He wanted to get more say in the running of the central government",
+        "3": " He wanted to get more say in the running of the central government"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one way in which Ayub Khan's government attempted to address social and economic issues in Pakistan during his tenure?",
+      "answer": "Attempted to control the population through a family planning program.",
+      "distractors": {
+        "1": "Agricultural reform meant an increase in agricultural production",
+        "2": " Agricultural reform meant an increase in agricultural production",
+        "3": " Agricultural reform meant an increase in agricultural production"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the referendum held in 1959 regarding the President's position?",
+      "answer": "95% of the newly elected Basic Democrats voted in favor of the President remaining in office.",
+      "distractors": {
+        "1": "95 of the newly elected Basic Democrats voted in favor of the President remaining in office",
+        "2": " 95 of the newly elected Basic Democrats voted against the President remaining in office",
+        "3": " 95 of the newly elected Basic Democrats voted in favor of the President remaining in office"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did East Pakistan disagree with the draft proposals in 1950?",
+      "answer": "East Pakistan felt that its people were under-represented and objected to Urdu being the main language.",
+      "distractors": {
+        "1": "East Pakistan wanted representation equal to each of West Pakistans provinces",
+        "2": " East Pakistan wanted representation equal to each of West Pakistans provinces",
+        "3": " East Pakistan wanted representation equal to each of West Pakistans provinces"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind Bogra's attempt to curb the power of GG Ghulam Mohammad in 1935?",
+      "answer": "He wanted to take away some of GG's power",
+      "distractors": {
+        "1": "He wanted to make GG do as he was told",
+        "2": " He wanted to make GG declare state of emergency",
+        "3": " He wanted to make GG do as he was told"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Ayub Khan seek the help of the military in 1958?",
+      "answer": "To restore stability and answer questions",
+      "distractors": {
+        "1": "To unite the political leadership of Bengal and Punjab against him",
+        "2": " To take control of the central government",
+        "3": " To unite the political leadership of Bengal and Punjab against him"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the introduction of Martial Law in Pakistan in 1958?",
+      "answer": "To bring about greater efficiency and development in West Pakistan",
+      "distractors": {
+        "1": "To prevent East Pakistan gaining a majority in the Assembly",
+        "2": " To prevent East Pakistan gaining a majority in the Assembly",
+        "3": " To prevent East Pakistan gaining a majority in the Assembly"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event occurred in Pakistan in 1958?",
+      "answer": "The Glorious Revolution",
+      "distractors": {
+        "1": "Laws Order",
+        "2": " Constitution",
+        "3": " Martial Law"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the nature of the government established in Pakistan after the adoption of the 2nd Constituent Assembly in 1954?",
+      "answer": "The government was an Islamic Republic with a President who held emergency powers and could dissolve the National Assembly.",
+      "distractors": {
+        "1": "The government was an Islamic Republic with Mirza as Prime Minister",
+        "2": " The government was an Islamic Republic with Mirza as Prime Minister",
+        "3": " The government was an Islamic Republic with Mirza as President"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What led Ayub Khan to take control of the government in Pakistan in 1958?",
+      "answer": "Tensions between East Pakistan and West Pakistan",
+      "distractors": {
+        "1": "The support of the leading politicians",
+        "2": " The plan by Suharwardy to unite the political leadership of Bengal and Punjab",
+        "3": " The instability in the country"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Ayub Khan's main goal in implementing his domestic policies?",
+      "answer": "To improve the lives of the common people",
+      "distractors": {
+        "1": "To encourage the development of industry",
+        "2": " To stop profiteering",
+        "3": " To increase the production of oil"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Ayub Khan move the government officials away from Karachi?",
+      "answer": "To be closer to the army's command headquarters in the north",
+      "distractors": {
+        "1": "To be closer to the industrially and commercially developed south",
+        "2": " To be closer to the underdeveloped Punjab region in the north",
+        "3": " To be closer to the commercial districts of Karachi"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the One Unit Scheme introduced by Iskander Mirza in 1955?",
+      "answer": "To unify West Pakistan and provide equal representation in the Assembly.",
+      "distractors": {
+        "1": "To bring about greater efficiency and enable more rapid development",
+        "2": " To unify all of West Pakistan",
+        "3": " To bring about greater efficiency and enable more rapid development"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did General Ayub Khan feel the army should take control in Pakistan in 1956-1958?",
+      "answer": "To restore stability",
+      "distractors": {
+        "1": "To unite the political leadership of Bengal and Punjab against him",
+        "2": " To unite the political leadership of Bengal and Punjab against him",
+        "3": " To unite the political leadership of Bengal and Punjab against him"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the factors that contributed to the discontent in East Pakistan in the mid-20th century?",
+      "answer": "Economic inequality and political marginalization",
+      "distractors": {
+        "1": "Regular floods and a weaker industrial base",
+        "2": " Regular floods and a weak climate",
+        "3": " Regular floods and a weak industrial base"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the people of East Pakistan feel discontented with Pakistan during the 1970s?",
+      "answer": "They wanted separation from Pakistan due to perceived differences and regionalism rather than national sovereignty.",
+      "distractors": {
+        "1": "They wanted to have their own armed forces",
+        "2": " They wanted to have their own currency and fiscal policy",
+        "3": " They wanted to negotiate its own trade agreements with other countries"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did East Pakistan want to become independent from West Pakistan?",
+      "answer": "It felt under-represented in the Pakistani army and civil service, and resented the political repression and lack of attention from the rest of Pakistan due to its geographical distance.",
+      "distractors": {
+        "1": "It wanted to have its own currency and fiscal policy with its own taxation",
+        "2": " It wanted to negotiate its own trade agreements with other countries",
+        "3": " It wanted to have its own armed forces"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main reason for the separation of East Pakistan from West Pakistan in 1971?",
+      "answer": "The perceived differences between the two halves of the country and the rejection of the Awami League's demands by Ayub Khan",
+      "distractors": {
+        "1": "The intervention of Indian troops in East Pakistan",
+        "2": " The resentment of the Awami League",
+        "3": " The resentment of the people of East Pakistan"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were the main reasons behind the growing discontent among people in East Pakistan in the early 1970s?",
+      "answer": "The perceived unequal distribution of wealth and power between East and West Pakistan, as well as the rejection of the Awami League's Six Point demands by Ayub Khan and the subsequent imprisonment of its leader, Mujibur Rehman.",
+      "distractors": {
+        "1": "The intervention of Indian troops in East Pakistan",
+        "2": " The lack of industrial base in the eastern province",
+        "3": " The lack of trade agreements with other countries"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the reasons why East Pakistan felt resentful towards the government of Pakistan in the mid-20th century?",
+      "answer": "It felt under-represented in the Pakistani army and civil service.",
+      "distractors": {
+        "1": "It had a weaker industrial base than the West",
+        "2": " It suffered from floods",
+        "3": " It received little attention from the rest of Pakistan"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Ayub Khan reject the demands of the Six Points of the Awami League?",
+      "answer": "He believed it would lead to separation of East Pakistan from Pakistan",
+      "distractors": {
+        "1": "He believed it would lead to the development of Pakistan",
+        "2": " He believed it would lead to the development of Pakistan",
+        "3": " He believed it would lead to the development of Pakistan"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main issue that led to the conflict between President Yahya Khan and the Awami League in Pakistan?",
+      "answer": "The Awami League's desire to limit the power of the central government over the provinces",
+      "distractors": {
+        "1": "The Awami Leagues desire to take over the National Assembly",
+        "2": " The Awami Leagues desire to have control over their foreign exchange earned from trade",
+        "3": " The Awami Leagues desire to have control over their foreign exchange earned from trade"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the successes and failures of Pakistan's relations with Bangladesh in the 1970s and 1980s?",
+      "answer": "Successes: Official recognition of Bangladesh, exchange of ambassadors, cooperation on trade, tourism, and media; Failures: Withdrawal from Commonwealth and SEATO, persecution and deprivation of non-Bengalis in Bangladesh, failed asset redistribution talks between Zulfiqar Ali Bhutto and Bangladeshi leaders.",
+      "distractors": {
+        "1": "Cooperation on trade",
+        "2": " tourism and the media",
+        "3": " Official recognition of Bangladesh"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the key domestic policies implemented by the leader in the context?",
+      "answer": "Free primary education was introduced",
+      "distractors": {
+        "1": "Rural Health Centres were introduced",
+        "2": " All private sector schools were nationalised",
+        "3": " All private sector schools were nationalised"
+      },
+      "topic": 14
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why was Zulfiqar Ali Bhutto executed in 1979?",
+      "answer": "He was found guilty of conspiracy to murder a political opponent",
+      "distractors": {
+        "1": "He refused to plead for clemency to the President",
+        "2": " He was found guilty of murdering a political opponent",
+        "3": " He was found guilty of a crime against the country"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the 1973 Constitution in Pakistan's history?",
+      "answer": "It established a senate and safeguarded the interests of minority provinces.",
+      "distractors": {
+        "1": "It was the basis upon which Pakistan has been governed to the end of the 20th Century",
+        "2": " It was the basis upon which Pakistan has been governed to the end of the 20th Century",
+        "3": " It was the basis upon which Pakistan has been governed to the end of the 20th Century"
+      },
+      "topic": 15
+    }
+  }
+]

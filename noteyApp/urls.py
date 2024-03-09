@@ -8,6 +8,7 @@ path('quiz/', views.createQuiz),
 path('dashboard/', views.dashboard ),
 path('updateStats/', views.updateStatsView),
 path('learn/', views.getTopics),
+path('context/<int:topic_id>/', views.getContext),
 
 # path('signin/', views.UserLogin.as_view()),
 # path('signup/', views.UserRegistration.as_view() ),

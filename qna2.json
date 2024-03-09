@@ -1,0 +1,1302 @@
+[
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What action did Bhutto take to establish power after the defeat of the Pakistani army in 1971?",
+      "answer": "He took control of the army and appointed his own leaders",
+      "distractors": {
+        "1": "He took advantage of Yayha Khan and the army",
+        "2": " He took control of the army and appointed his own leaders",
+        "3": " He took control of the army and appointed his own leaders"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the agreement signed between Bhutto and Indira Gandhi in July 1972?",
+      "answer": "Improved Pakistan's international reputation and increased Bhutto's popularity",
+      "distractors": {
+        "1": "Bhutto and Indira Gandhi improved Pakistans international reputation and increased Bhuttos popularity",
+        "2": " Bhutto and Indira Gandhi improved Pakistans international reputation and increased Bhuttos popularity",
+        "3": " Bhutto and Indira Gandhi improved Pakistans international reputation and increased Bhuttos popularity"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of Zulfikar Ali Bhutto's significant domestic policies during his tenure as President of Pakistan in the 1970s?",
+      "answer": "Free primary education was introduced",
+      "distractors": {
+        "1": "Rural Health Centres were set up",
+        "2": " Pharmaceutical companies were banned",
+        "3": " Rural Health Centres were set up"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of the Simla Agreement signed between Pakistan and India in 1972?",
+      "answer": "It enhanced Bhutto's popularity in Pakistan and improved his international reputation.",
+      "distractors": {
+        "1": "It was signed by Bhutto and Indira Gandhi",
+        "2": " It was signed by Bhutto and Indira Gandhi",
+        "3": " It was signed by Bhutto and Indira Gandhi"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why was Zia ul Haq interested in getting rid of Bhutto?",
+      "answer": "To demonstrate his growing power and lack of weakness to the army",
+      "distractors": {
+        "1": "To show his weakness in the army",
+        "2": " To show his weakness in the party leadership",
+        "3": " To show his weakness in the army"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the main weaknesses of the new constitution introduced in 1973 in Pakistan?",
+      "answer": "The focal point of political power lay with the party leadership, specifically Zulfikar Ali Bhutto.",
+      "distractors": {
+        "1": "The Senate offered the opportunity for professionals",
+        "2": " academics and specialists to work together",
+        "3": " It safeguarded the interests of minority provinces which now had equal status in the Senate"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zulfikar Ali Bhutto's health scheme aimed at achieving in 1972?",
+      "answer": "Providing widespread healthcare through Rural Health Centres and Basic Health Units.",
+      "distractors": {
+        "1": "Providing widespread healthcare through training colleges for doctors and nurses",
+        "2": " Providing widespread healthcare through training colleges for doctors and nurses",
+        "3": " Providing widespread healthcare through Rural Health Centres and Basic Health Units"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges faced by Bhutto's government during his tenure in office?",
+      "answer": "Overcrowding in existing schools, expensive recruitment of new teachers, and opposition to educational reforms due to loss of earnings for families.",
+      "distractors": {
+        "1": "The education reforms",
+        "2": " and the building of new schools",
+        "3": " The education reforms"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia ul-Haq's approach to governance in Pakistan during his tenure as President?",
+      "answer": "He introduced Islamic laws to produce a strong and stable government",
+      "distractors": {
+        "1": "He ignored the political process",
+        "2": " He increased the efficiency of governmentrun industries",
+        "3": " He declared legal all the military actions since 1977"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia's main goal in introducing Islamic laws in Pakistan?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "To punish people for showing disrespect towards the Holy Prophet",
+        "2": " To distribute some wealth to the poor and needy",
+        "3": " To distribute some wealth to the poor and needy"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the consequences of Zia ul-Haq's domestic policies in Pakistan?",
+      "answer": "The number of Pakistanis working in the Middle East increased significantly",
+      "distractors": {
+        "1": "The Soviets became a base for antiSoviet activities",
+        "2": " The West provided military and economic support to Pakistan",
+        "3": " The Soviets became a base for antiSoviet activities"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia's goal in implementing Islamic laws in Pakistan?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "To punish people for showing disrespect towards the Holy Prophet",
+        "2": " To raise Islamic awareness among students",
+        "3": " To distribute some wealth to the poor and needy"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was part of the Islamisation program implemented by the government in the 1970s and 1980s?",
+      "answer": "Imposition of Islamic punishments for certain offenses, such as amputation of the right hand for theft and 80 stripes of the cane for drinking alcohol.",
+      "distractors": {
+        "1": "Imposition of 25 wealth tax to be given to the poor",
+        "2": " Imposition of Islamic punishments for gambling",
+        "3": " drinking"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia's primary goal in introducing Islamic laws in Pakistan?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "To establish a measure of legitimacy to his presidency",
+        "2": " To establish a measure of legitimacy to his presidency",
+        "3": " To establish a measure of legitimacy to his presidency"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia's goal in implementing Islamic laws in Pakistan?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "To punish people for showing disrespect towards the Holy Prophet",
+        "2": " To raise Islamic awareness among students",
+        "3": " To distribute some wealth to the poor and needy"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one of the significant domestic policies implemented by President Zia during his rule?",
+      "answer": "Introducing Islamic laws to produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "Increasing the efficiency of governmentrun industries",
+        "2": " Increasing the efficiency of governmentrun industries",
+        "3": " Declaring legal all the military actions since 1977"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the political crisis faced by Zia-ul-Haq in 1988?",
+      "answer": "He dismissed the National Assembly",
+      "distractors": {
+        "1": "He was accused of setting up an inquiry",
+        "2": " He was accused of setting up an inquiry",
+        "3": " He was accused of setting up an inquiry"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Zia ul-Haq's primary goal in introducing Islamic laws in Pakistan?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values",
+      "distractors": {
+        "1": "To establish a measure of legitimacy to his presidency",
+        "2": " To increase local and foreign investment in industries",
+        "3": " To establish a measure of legitimacy to his presidency"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the impact of USSR's invasion of Afghanistan on Pakistan's relationship with other countries in the 1970s?",
+      "answer": "Pakistan became a leading country in world politics",
+      "distractors": {
+        "1": "Pakistan became an important base against the Soviets",
+        "2": " Pakistan became an important base against the Soviets",
+        "3": " Pakistan became an important base against the Soviets"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event led to a political crisis for President Zia-ul-Haq in 1988?",
+      "answer": "Dissolution of the National Assembly by Prime Minister Junejo",
+      "distractors": {
+        "1": "The explosion at the arms dump at Camp Ojhri",
+        "2": " The setting up of an inquiry",
+        "3": " The breaking away from Pakistan"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the dismissal of the government in Pakistan in May 1990?",
+      "answer": "The government was dismissed due to widespread violence carried out by supporters of MQM, resulting in the deaths of women and children.",
+      "distractors": {
+        "1": "The government was dismissed due to widespread violence carried out by supporters of MQM",
+        "2": " The government was dismissed due to widespread violence carried out by supporters of MQM",
+        "3": " The government was dismissed due to widespread violence carried out by supporters of MQM"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the former Prime Minister of Pakistan face criticism and eventual dismissal from office?",
+      "answer": "She was accused of corruption and her coalition with the MQM led to violent protests and a breakdown of law and order.",
+      "distractors": {
+        "1": "She was accused of corruption and her husband Asif Ali Zardari was suspected of being involved",
+        "2": " She was accused of corruption and her coalition with the MQM led to violent protests throughout Pakistan",
+        "3": " She was accused of corruption and her coalition with the PPP led to the breakdown of law and order"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the United States refuse to hand over Osama bin Laden to Pakistan during the rule of General Pervez Musharraf?",
+      "answer": "The US refused to hand over Osama bin Laden to Pakistan due to Pakistan's support for the Taliban in Afghanistan.",
+      "distractors": {
+        "1": "The US refused to hand over Osama bin Laden to Pakistan because Pakistan tested nuclear weapons",
+        "2": " The US refused to hand over Osama bin Laden to Pakistan because Pakistan tested nuclear weapons",
+        "3": " The US refused to hand over Osama bin Laden to Pakistan because Pakistan tested nuclear weapons"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges Benazir Bhutto faced during her political career in Pakistan?",
+      "answer": "Opposition from politicians, accusations of corruption from her husband, divisions within her party, criticism from the IJI regarding the government's closeness to the US.",
+      "distractors": {
+        "1": "Divisions within her party",
+        "2": " accusations of corruption from her husband",
+        "3": " Opposition from politicians"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What challenges did Benazir Bhutto face during her tenure as Prime Minister of Pakistan?",
+      "answer": "Opposition from her own party, government, and opposition, violence and killing, rumors of corruption and unethical business dealings, and a political crisis caused by the dismissal of judges and the Chief Minister.",
+      "distractors": {
+        "1": "The rumors of corruption and unethical business dealings",
+        "2": " The rumors of corruption and unethical business dealings",
+        "3": " The rumors of corruption and unethical business dealings"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Nawaz Sharif try to blame Pervez Musharraf for the Kashmir retreat?",
+      "answer": "He was not accepted",
+      "distractors": {
+        "1": "He was not allowed to return toPakistan",
+        "2": " He was visiting Sri Lanka",
+        "3": " He was not allowed to return toPakistan"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges Benazir Bhutto faced during her tenure as Prime Minister of Pakistan?",
+      "answer": "Opposition from Nawaz Sharif and family feuds within the PPP",
+      "distractors": {
+        "1": "The killing of her brother Mir Murtaza in a police ambush",
+        "2": " The killing of her brother Mir Murtaza in a police ambush",
+        "3": " The organising of strikes"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the economic challenges faced by Pakistan during the 1990s?",
+      "answer": "Mismanagement of cooperative societies, easy availability of guns, drug addiction, and loss of US aid.",
+      "distractors": {
+        "1": "Lack of jobs",
+        "2": " drug addiction",
+        "3": " and loss of US aid"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Pervez Musharraf overthrow Nawaz Sharif in a bloodless coup?",
+      "answer": "To put Pakistan under military rule",
+      "distractors": {
+        "1": "To allow his plane to land",
+        "2": " To allow life to go on as normal",
+        "3": " To replace Nawaz Sharif as the chief of army"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Pakistan become disenchanted with SEATO?",
+      "answer": "It failed to support Pakistan in its wars with India",
+      "distractors": {
+        "1": "It refused to provide it with military force",
+        "2": " It refused to provide it with further aid",
+        "3": " It refused to sign the Treaty"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why has the plebiscite in Kashmir never been held despite being promised by India?",
+      "answer": "The war between India and Pakistan has broken out multiple times, preventing the holding of a plebiscite.",
+      "distractors": {
+        "1": "The war between India and Pakistan has broken out multiple times",
+        "2": " The war between India and Pakistan has broken out multiple times",
+        "3": " The war between India and Pakistan has broken out multiple times"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the diplomatic tension between Afghanistan and Pakistan during the 1960s?",
+      "answer": "Afghanistan violated Pakistan's airspace and bombed Pakistani areas",
+      "distractors": {
+        "1": "Zahir Shah wanted to be friendly with Pakistan",
+        "2": " Pakistan was under pressure from India and Russia",
+        "3": " Zahir Shah wanted to be friendly with Pakistan"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Pakistan's motivation for seeking membership in the United Nations?",
+      "answer": "To draw international attention to its conflict with India over Kashmir",
+      "distractors": {
+        "1": "To become a spokesman of many Asian States and movements",
+        "2": " To become a spokesman of many Asian States and movements",
+        "3": " To become a spokesman of many Asian States and movements"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Pakistanis identify themselves with the Palestinians?",
+      "answer": "As fellow Muslims",
+      "distractors": {
+        "1": "As friends",
+        "2": " As brothers",
+        "3": " As brothers"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the conflict between Pakistan and India in 1971?",
+      "answer": "Indian victory",
+      "distractors": {
+        "1": "Indian defeat",
+        "2": " Indian army defeat",
+        "3": " Indian army defeat"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What is the current status of the dispute over Kashmir between India and Pakistan?",
+      "answer": "The plebiscite has not been held yet.",
+      "distractors": {
+        "1": "The two countries have agreed to settle the dispute",
+        "2": " The two countries have held a plebiscite",
+        "3": " The two countries have agreed to settle the dispute"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the Soviet Union's support for Pakistan in the 1960s and 1970s?",
+      "answer": "The Soviet Union provided arms and economic assistance to Pakistan during this period as part of its policy of promoting socialism and non-alignment in the region.",
+      "distractors": {
+        "1": "The Soviet Union wanted to help Pakistan develop its nuclear programme",
+        "2": " The Soviet Union wanted to help Pakistan develop its nuclear programme",
+        "3": " The Soviet Union wanted to help Pakistan develop its nuclear programme"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Pakistan's motivation for seeking membership in the United Nations?",
+      "answer": "To draw international attention to their conflict with India over Kashmir",
+      "distractors": {
+        "1": "To become a spokesman of many Asian states and movements",
+        "2": " To become a spokesman of many Asian states and movements",
+        "3": " To become a spokesman of many Asian states and movements"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the deterioration of relations between Pakistan and India in the mid-20th century?",
+      "answer": "India's nuclear test program",
+      "distractors": {
+        "1": "Indira Gandhis assassination",
+        "2": " The Kashmir problem",
+        "3": " The Simla agreement"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the United States' aid to Pakistan during the Soviet War in 1979?",
+      "answer": "To join US in anti-communism pack",
+      "distractors": {
+        "1": "To join CENTO",
+        "2": " To join SEATO",
+        "3": " To join CENTO"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Organization of Islamic Cooperation (OIC) according to the text?",
+      "answer": "To promote harmony and cooperation between Muslim nations",
+      "distractors": {
+        "1": "To provide support to the Palestinians",
+        "2": " To discuss the incident of the AlAqsa Mosque",
+        "3": " To provide support to the Palestinians"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Simla Accord signed in 1972?",
+      "answer": "Failure",
+      "distractors": {
+        "1": "Success",
+        "2": " Success",
+        "3": " Success"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What has been the primary source of conflict between India and Pakistan regarding Kashmir since 1948?",
+      "answer": "War",
+      "distractors": {
+        "1": "Plebiscite",
+        "2": " Peace",
+        "3": " Peace"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the Soviet Union's support for Pakistan in the 1960s and 1970s?",
+      "answer": "The Soviet Union provided arms and economic assistance to Pakistan during this period as a way to counterbalance Indian influence in the region.",
+      "distractors": {
+        "1": "The Soviet Union wanted to help Pakistan develop its nuclear programme",
+        "2": " The Soviet Union wanted to counterbalance Indian influence in the region",
+        "3": " The Soviet Union wanted to help Pakistan develop its nuclear programme"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What caused tensions between Afghanistan and Pakistan in the early 20th century?",
+      "answer": "Violations of a trade agreement",
+      "distractors": {
+        "1": "Terrorist problems",
+        "2": " Drugs",
+        "3": " Kidnappings"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind Pakistan's decision to vote against China's admission to the United Nations in 1959?",
+      "answer": "They supported pro-USA policies",
+      "distractors": {
+        "1": "They were worried about border issues",
+        "2": " They were opposed to China",
+        "3": " They were worried about military action in Tibet"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What has been the primary cause of conflict between India and Pakistan over Kashmir since 1947?",
+      "answer": "Pressure on India by Pakistan to hold a UN-supervised plebiscite",
+      "distractors": {
+        "1": "The threat of nuclear war",
+        "2": " The Indian occupation of Kashmir",
+        "3": " The Kargil crisis"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason behind the USSR's anger towards Pakistan in 1960?",
+      "answer": "The USSR threatened military action against Pakistan after discovering that the United States was using a Pakistani base to conduct spy flights over the Soviet Union, resulting in the shooting down of Gary Powers.",
+      "distractors": {
+        "1": "The USSR was angry with Pakistan for conducting spy flights over the Soviet Union",
+        "2": " The USSR was angry with Pakistan for using Pakistani base to conduct spy flights over the Soviet Union",
+        "3": " The USSR was angry with Pakistan for using Pakistani base to conduct spy flights over the Soviet Union"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the significance of Ayub Khan's visit to the USSR in 1965?",
+      "answer": "Improved understanding between Pakistan and the USSR",
+      "distractors": {
+        "1": "Peace Conference between Pakistan and the USSR",
+        "2": " Oil exploration in Pakistan",
+        "3": " Supply of arms to Pakistan"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the successes of British foreign policy towards Pakistan during the 20th century?",
+      "answer": "Translated: Britain remained in Pakistan after 1947, helped broker a peace deal in 1965, and provided aid to Afghan refugees in the country.",
+      "distractors": {
+        "1": "Britain refused to interfere in Kashmir problem",
+        "2": " Britain provided aid to Afghan refugees in Pakistan",
+        "3": " Britain provided 46m aid for Afghan refugees in Pakistan"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the successes of Pakistan's membership in international organizations before 1979?",
+      "answer": "Supported the Palestinian cause, contributed to UN peacekeeping forces, became the spokesperson for many Asian states, and received financial and technical support from the World Bank through the Indus Water Treaty.",
+      "distractors": {
+        "1": "Received financial and technical support from the World Bank through the Indus Water Treaty",
+        "2": " Raised the question of Kashmir on several occasions",
+        "3": " Received much needed interest free loans and grants"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Simla Accord signed in 1972?",
+      "answer": "It resulted in an agreement regarding the border between East Bengal and Assam.",
+      "distractors": {
+        "1": "It resulted in an agreement regarding the border between East Bengal and Assam",
+        "2": " It resulted in an agreement regarding the border between East Bengal and Assam",
+        "3": " It resulted in an agreement regarding the border between East Bengal and Assam"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Pakistan's motivation for seeking membership in the United Nations?",
+      "answer": "To draw international attention to their conflict with India over Kashmir",
+      "distractors": {
+        "1": "To become a spokesman of many Asian States and movements",
+        "2": " To become a spokesman of many Asian States and movements",
+        "3": " To become a spokesman of many Asian States and movements"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the diplomatic tension between Afghanistan and Pakistan in the 1960s?",
+      "answer": "Afghanistan violated Pakistan's airspace and bombed Pakistani areas during the Afghan-Russian war.",
+      "distractors": {
+        "1": "Pakistan was not friendly to Afghanistan",
+        "2": " Pakistan was not friendly to Afghanistan",
+        "3": " Pakistan was not friendly to Afghanistan"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of Liaquat Ali Khan's visit to the United States in 1950?",
+      "answer": "He joined SEATO and CENTO",
+      "distractors": {
+        "1": "He left CENTO",
+        "2": " He left SEATO",
+        "3": " He left CENTO"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What has been the primary cause of conflict between India and Pakistan over Kashmir since the partition of India in 1947?",
+      "answer": "The failure to hold a UN-supervised plebiscite to determine the future of Kashmir",
+      "distractors": {
+        "1": "The failure to hold a plebiscite to determine the future of Kashmir",
+        "2": " The failure to integrate Indianoccupied Kashmir into India",
+        "3": " The failure to hold an official ceasefire line between India and Pakistan"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for Pakistan's withdrawal from the Commonwealth in 1971?",
+      "answer": "Military coup",
+      "distractors": {
+        "1": "Suez crisis",
+        "2": " Kashmir problem",
+        "3": " British interference"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the cause of the social unrest in the community?",
+      "answer": "Strong opposition",
+      "distractors": {
+        "1": "Strikes",
+        "2": " Arrests",
+        "3": " Strikes"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What is the significance of Zia-ul-Haq's military uniform in the image?",
+      "answer": "It symbolizes his position of power and authority as the President of Pakistan.",
+      "distractors": {
+        "1": "It is a symbol of his determination and commitment",
+        "2": " It is a symbol of his determination and determination",
+        "3": " It is a symbol of his determination and commitment"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the primary goal of the leader mentioned in the passage?",
+      "answer": "To produce a strong and stable government managed by people committed to Islamic values.",
+      "distractors": {
+        "1": "To provide a counter to Zulfiqar Ali Bhuttos socialist government",
+        "2": " To strengthen the government",
+        "3": " To distribute some wealth to the poor and needy by introducing Islamic taxes following Islamic principles"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of Pakistan's support for Afghan fighters in their conflict with Russia in 1979?",
+      "answer": "Pakistan became a target of Russia",
+      "distractors": {
+        "1": "Pakistan became a target of the USA",
+        "2": " Pakistan became a target of China",
+        "3": " Pakistan became a target of the USA"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did Syed Mir Nisar do to challenge British rule in Bengal?",
+      "answer": "He built a bamboo fort and defeated British troops",
+      "distractors": {
+        "1": "He set up his own rule near Calcutta",
+        "2": " He set up his own rule near Calcutta",
+        "3": " He set up his own rule near Calcutta"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Sir Syed Ahmad Khan's goal in promoting Western-style education among Muslims in India?",
+      "answer": "To improve their social and economic conditions by taking up posts in the civil service and the army",
+      "distractors": {
+        "1": "To make the Muslim community more friendly to the British",
+        "2": " To make the Muslim community more open to the British",
+        "3": " To make the Muslim community more friendly to the British"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the ways in which the British colonial administration attempted to impose their culture on the Indian population in the mid-19th century?",
+      "answer": "Taught Christianity in missionary schools, replaced Persian and Sanskrit with English as the official language, abolished suttee/purdah, and introduced the Doctrine of Lapse.",
+      "distractors": {
+        "1": "Introduced a new gun that used cartridges coated in grease",
+        "2": " Replaced Persian and Sanskrit with English as the official language",
+        "3": " Set up schools to convert the local population"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Hindu community in India burn British-made clothes during the Partition of Bengal in 1905?",
+      "answer": "They boycotted British goods",
+      "distractors": {
+        "1": "They wanted to show their independence",
+        "2": " They wanted to show their independence",
+        "3": " They wanted to show their independence"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the Muslim community in India feel the need to establish their own political party in the early 20th century?",
+      "answer": "To advance their rights and protect themselves against growing Hindu nationalist groups demanding forced conversion and increasing violence.",
+      "distractors": {
+        "1": "To protect themselves against the growing Hindu nationalist groups demanding forced conversion",
+        "2": " To protect themselves against the growing Hindu nationalist groups demanding forced conversion",
+        "3": " To protect themselves against the growing Hindu nationalist groups demanding forced conversion"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Round Table Conferences held in London in 1930-31?",
+      "answer": "The Princely States declared their intention to join a future federal system for India, and representative government was agreed upon at the provincial level.",
+      "distractors": {
+        "1": "The Princely States declared their intention to join a future federation for India",
+        "2": " The British agreed that representative government should be introduced at the provincial level",
+        "3": " The Muslim community felt the first RTC was a success"
+      },
+      "topic": 9
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who chaired the committee responsible for drawing the borders of India and Pakistan in 1947?",
+      "answer": "Sir Cyril Radcliffe",
+      "distractors": {
+        "1": "The Muslim League",
+        "2": " The Congress",
+        "3": " The Muslim League"
+      },
+      "topic": 12
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What organization does Pakistan belong to that aims to promote harmony and cooperation among Muslim nations and supports the Palestinian cause?",
+      "answer": "The Organisation of Islamic Cooperation (OIC)",
+      "distractors": {
+        "1": "The Palestinians",
+        "2": " The Islamic World",
+        "3": " The Islamic World"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the main goal of the Muslim League during this period of history?",
+      "answer": "To demand a separate Muslim state.",
+      "distractors": {
+        "1": "To get control of the Muslim vote",
+        "2": " To get the British government to give in",
+        "3": " To get the British to accept the province groupings"
+      },
+      "topic": 10
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Baghdad Pact?",
+      "answer": "To establish an anti-Communist alliance against the Soviet Union",
+      "distractors": {
+        "1": "To develop a permanent structure or system for raising troops for mutual defence",
+        "2": " To develop a permanent structure or system for raising troops for mutual defence",
+        "3": " To develop a permanent structure or system for raising troops for mutual defence"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Ayub Khan feel the army should take control of the government in Pakistan in 1956?",
+      "answer": "To restore stability",
+      "distractors": {
+        "1": "To deal with the drought",
+        "2": " To unite the political leadership",
+        "3": " To find a solution"
+      },
+      "topic": 17
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did Benazir Bhutto fail to gain support from the Muhajir Quami Movement (MQM)?",
+      "answer": "She promised to protect the interests of all the people of Sindh",
+      "distractors": {
+        "1": "She was not well educated",
+        "2": " She was not able to deliver economic reforms",
+        "3": " She was not able to use the Eighth Amendment to dismiss the government"
+      },
+      "topic": 16
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges faced by the soldiers in the cell?",
+      "answer": "Dirty conditions, lack of fresh air, dehydration, trampled to death, and crushed to death",
+      "distractors": {
+        "1": "Lack of fresh air  suffocation",
+        "2": " lack of water  dehydration",
+        "3": " and crushed to death"
+      },
+      "topic": 18
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What can be inferred about the severity of the famine based on the scene depicted in the image?",
+      "answer": "The famine was very severe, causing great suffering and ill health among the people.",
+      "distractors": {
+        "1": "The famine was very mild",
+        "2": " causing great suffering and ill health among the people",
+        "3": " The famine was very mild"
+      },
+      "topic": 18
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What tactic did Clive use to defeat the Nawab's army?",
+      "answer": "Covering his cannons with cloth during rain",
+      "distractors": {
+        "1": "Keeping his cannons dry",
+        "2": " Keeping his cannons dry",
+        "3": " Keeping his cannons dry"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Permanent Settlement introduced by Lord Cornwallis in 1793?",
+      "answer": "To secure the financial interests of the East India Company and help Bengal become the wealthiest province in India, allowing the British to extend their control.",
+      "distractors": {
+        "1": "To make zamindars of Bengal landowners pay a fixed sum to the British",
+        "2": " To help the British to extend their control of Bengal",
+        "3": " To make the position of Governor General a royal appointment"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the Afghan leader known for his military genius and victory over the Marathas at the Battle of Panipat in 1761?",
+      "answer": "Ahmad Shah Abdali",
+      "distractors": {
+        "1": "Ahmad Shah Abdali",
+        "2": " Ahmad Shah",
+        "3": " Ahmad Shah"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British establish a trading base in the subcontinent?",
+      "answer": "To establish their influence and oust other European powers",
+      "distractors": {
+        "1": "To protect their trading interests there and in the Far East",
+        "2": " To establish their influence in the subcontinent",
+        "3": " To establish a strategic port in the subcontinent"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the goal of the Jihad Movement founded by Syed Ahmad Shaheed Brailvi?",
+      "answer": "To liberate the Punjab and the NWF from non-Muslim oppression through an armed struggle.",
+      "distractors": {
+        "1": "To restore Muslim power",
+        "2": " To provide the inspiration for Muslims to lead a pure life",
+        "3": " To remove Hindu practices from worship"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who did Wellesley persuade local rulers to sign subsidiary alliances with in 1798?",
+      "answer": "Local princes / rulers",
+      "distractors": {
+        "1": "Governor General of India",
+        "2": " Tipu Sultan",
+        "3": " Wellesley"
+      },
+      "topic": 2
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was a major factor hindering the success of the rebellion against British colonial rule in India before 1850?",
+      "answer": "Lack of unity among the Indian population",
+      "distractors": {
+        "1": "Lack of modern methods of fighting",
+        "2": " Lack of firepower",
+        "3": " Lack of modern methods of fighting"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Sir Syed Ahmed Khan's primary goal in founding the Muslim college in 1876?",
+      "answer": "To educate Muslims and make scientific writings available in Urdu.",
+      "distractors": {
+        "1": "To make the Muslim community better understood by the British",
+        "2": " To make the Muslim community better understood by the British",
+        "3": " To improve relations with the British by translating scientific writings from English into Urdu"
+      },
+      "topic": 5
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the leader of the Pakistan National Movement in the 1930s?",
+      "answer": "Muhammad Ali Jinnah",
+      "distractors": {
+        "1": "Muhammad Ali Khan",
+        "2": " Muhammad Ali Khan",
+        "3": " Muhammad Ali Khan"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the purpose of the Widdia Mandar scheme in India during the early 20th century?",
+      "answer": "To promote Hinduism and convert non-Hindus to Hinduism",
+      "distractors": {
+        "1": "To encourage Hindus to expel Muslims from Hindustan",
+        "2": " To enforce Hindi as the official language",
+        "3": " To introduce Hindu myths and heroes"
+      },
+      "topic": 11
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the outcome of the Khilafat Movement in India?",
+      "answer": "The movement ended due to the loss of support from Hindu communities, the imprisonment of its leaders, and the formation of a nationalist government in Turkey.",
+      "distractors": {
+        "1": "The movement was a success because of the support from Hindu communities",
+        "2": " The movement was a success because of the involvement of Hindu groups",
+        "3": " The movement was a success because of the support from Hindu communities"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the reason for the protest by some Muslim groups in Pakistan in 1980?",
+      "answer": "They believed that the wealth tax was against their interpretation of Islamic law.",
+      "distractors": {
+        "1": "They thought that the wealth tax was too high",
+        "2": " They thought that the wealth tax was too high",
+        "3": " They thought that the wealth tax was too high"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the challenges faced by the Pakistani government after the death of Muhammad Ali Jinnah in 1948?",
+      "answer": "Difficulty in establishing a stable government, problems with relations with India over Kashmir, food shortages due to a drought, economic slump, and resistance to the One Unit Policy in East Pakistan.",
+      "distractors": {
+        "1": "Difficulty in establishing a stable government",
+        "2": " Difficulty in establishing a stable government",
+        "3": " Difficulty in establishing a stable government"
+      },
+      "topic": 15
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What significant actions were taken by the government in the 1950s to improve the economy and benefit the people?",
+      "answer": "The government established an oil refinery, set up a Mineral Development Corporation, introduced an Export Bonus Scheme, improved housing for refugees, implemented a Family Planning Programme, and introduced Basic Democracies.",
+      "distractors": {
+        "1": "The government set up a Mineral Development Corporation",
+        "2": " The government set up a Family Planning Programme",
+        "3": " The government set up a Mineral Development Corporation"
+      },
+      "topic": 13
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What adjective best describes the actions of the soldier in the given context?",
+      "answer": "Reckless",
+      "distractors": {
+        "1": "Devious",
+        "2": " Determined",
+        "3": " Devious"
+      },
+      "topic": 18
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What is depicted in the painting?",
+      "answer": "Lord Cornwallis receiving Tipu Sultan's sons as hostages",
+      "distractors": {
+        "1": "Lord Cornwallis shaking hands with the hostages",
+        "2": " Lord Cornwallis greeting the hostages",
+        "3": " Lord Cornwallis shaking hands with the hostages"
+      },
+      "topic": 18
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the British want to establish a presence in the Indian subcontinent in the mid-19th century?",
+      "answer": "To establish a strategic port to protect their trading interests and establish a profitable future.",
+      "distractors": {
+        "1": "To develop their trading interests there",
+        "2": " To oust the Dutch and Portuguese",
+        "3": " To develop their trading interests there"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What were some of the reasons for the resentment among the Indian people against the British colonial rulers in the mid-19th century?",
+      "answer": "High taxation, low soldier salaries, ban on export of cotton, forced abandonment of purdah, introduction of the Doctrine of Lapse, and the use of cartridges containing pig or cow fat.",
+      "distractors": {
+        "1": "The introduction of the Doctrine of Lapse",
+        "2": " the ban on export of cotton",
+        "3": " and the use of cartridges containing pig or cow fat"
+      },
+      "topic": 4
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What did the Nawab of Bengal do with the support of the East India Company in the mid-18th century?",
+      "answer": "He confiscated lands and wealth of people in Bengal to give to the British.",
+      "distractors": {
+        "1": "He tried to stop British influence in Bengal",
+        "2": " He tried to stop British influence in Bengal",
+        "3": " He tried to stop British influence in Bengal"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was the impact of the British railways on the establishment of British control in India before 1850?",
+      "answer": "It facilitated the transportation of soldiers and provided favorable trading rights with local nawabs.",
+      "distractors": {
+        "1": "It facilitated the transportation of soldiers and provided new resources",
+        "2": " It facilitated the transportation of soldiers and provided new resources",
+        "3": " It facilitated the transportation of soldiers and provided new resources"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was one reason why the Mughal Empire began to decline after Aurangzeb's death in 1707?",
+      "answer": "The lack of a definite line of succession led to in-fighting amongst his successors",
+      "distractors": {
+        "1": "The Mughal forces and their equipment struggled to respond to the rapid expansion of the British into the subcontinent",
+        "2": " The Mughal Emperors were renowned for living an extravagant lifestyle",
+        "3": " The Marathas were skilful Hindu fighters who defeated the Mughal army in 1737"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Who was the British commander responsible for the Jallianwala Bagh massacre in 1919?",
+      "answer": "General Dyer",
+      "distractors": {
+        "1": "General Clark",
+        "2": " General Smith",
+        "3": " General Walker"
+      },
+      "topic": 3
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What event weakened the Khilafat Movement in India in the early 1920s?",
+      "answer": "The hijrat to Afghanistan",
+      "distractors": {
+        "1": "The exile of the Khalifa",
+        "2": " The Chauri Chaura incident",
+        "3": " The new Turkish leader Kemal Ataturk"
+      },
+      "topic": 8
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "Why did the partition of Bengal in 1905 fail to achieve its intended goal?",
+      "answer": "The Hindu groups objected to the partition and put pressure on the British government to reverse their decision.",
+      "distractors": {
+        "1": "The Muslim community were not pleased with the partition",
+        "2": " The British government failed to administer the province",
+        "3": " The Hindu groups were not strong enough to resist the partition"
+      },
+      "topic": 7
+    }
+  },
+  {
+    "model": "noteyApp.questionanswertable",
+    "fields": {
+      "question": "What was Jinnah's appeal to the Muslim community after the end of Congress rule in 1939?",
+      "answer": "He appealed for public meetings to be held to support his declaration and urged for calm and humility in these gatherings.",
+      "distractors": {
+        "1": "He appealed to all local and provincial district Muslim Leagues to hold public meetings to support his declaration",
+        "2": " He appealed for all local and provincial district Muslim Leagues to hold public meetings to support his declaration",
+        "3": " He appealed for all local and provincial district Muslim Leagues to hold public meetings to support his declaration"
+      },
+      "topic": 9
+    }
+  }
+]
