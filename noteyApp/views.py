@@ -106,13 +106,31 @@ def getLatestThree(request):
     
     serializer = UserQuizTableSerializer(userQuiz, many=True)
     date_dict = {}
-    for i in serializer.data:
-        date_dict[i['date']] = i
+    for index, i in enumerate(serializer.data):
+        date_dict[index] = i['date']
     return Response(date_dict)
 
 @api_view(['GET'])
+def getFiveDayCount(request):
+    user = User.objects.get(username="zaid")
+    today = datetime.date.today()
+    userQuiz = UserQuizTable.objects.filter(user=user, date__range=[today - datetime.timedelta(days=5), today])
+    
+    serializer = UserQuizTableSerializer(userQuiz, many=True)
+
+    count_dict = {}
+
+    for i in serializer.data:
+        if i['date'] in count_dict:
+            count_dict[i['date']] += 1
+        else:
+            count_dict[i['date']] = 1
+
+    return Response(count_dict)
+
+@api_view(['GET'])
 def getTopics(request):
-    topics = TopicTable.objects.all()
+    topics = TopicTable.objects.exclude(topic="Undefined")
     serializer = TopicTableSerializer(topics, many=True)
     return Response(serializer.data)
 

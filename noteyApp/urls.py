@@ -12,6 +12,7 @@ path('context/<int:topic_id>/', views.getContext),
 # path('stats/', views.showStats),
 path('getQATopics/', views.getQATopics),
 path('getLatestThree/', views.getLatestThree),
+path('getFiveDayCount/', views.getFiveDayCount),
 
 # path('signin/', views.UserLogin.as_view()),
 # path('signup/', views.UserRegistration.as_view() ),
