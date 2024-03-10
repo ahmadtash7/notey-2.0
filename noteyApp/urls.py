@@ -10,6 +10,8 @@ path('updateStats/', views.updateStatsView),
 path('learn/', views.getTopics),
 path('context/<int:topic_id>/', views.getContext),
 # path('stats/', views.showStats),
+path('getQATopics/', views.getQATopics),
+path('getLatestThree/', views.getLatestThree),
 
 # path('signin/', views.UserLogin.as_view()),
 # path('signup/', views.UserRegistration.as_view() ),

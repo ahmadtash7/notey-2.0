@@ -51,9 +51,13 @@ def createQuiz(request, num_questions=5):
         for key, value in i.distractors.items():
             if value.strip() not in unique_values:
                 unique_values.add(value.strip())
-                unique_distractors[key] = value
-        print(unique_distractors)
+                unique_distractors[key] = value.strip()
+        # print(unique_distractors)
         i.distractors = unique_distractors
+        qaobject = QuestionAnswerTable.objects.get(id=i.id)
+        qaobject.distractors = unique_distractors
+        qaobject.save()
+        # print(i.distractors)
 
 
 
@@ -95,12 +99,38 @@ def updateStatsView(request):
     response = HttpResponse("Stats updated", content_type="text/plain")
     return response
 
+@api_view(['GET'])
+def getLatestThree(request):
+    user = User.objects.get(username="zaid")
+    userQuiz = UserQuizTable.objects.filter(user=user).order_by('-date')[:3]
+    
+    serializer = UserQuizTableSerializer(userQuiz, many=True)
+    date_dict = {}
+    for i in serializer.data:
+        date_dict[i['date']] = i
+    return Response(date_dict)
 
 @api_view(['GET'])
 def getTopics(request):
     topics = TopicTable.objects.all()
     serializer = TopicTableSerializer(topics, many=True)
     return Response(serializer.data)
+
+@api_view(['GET'])
+def getQATopics(request):
+    user = User.objects.get(username="zaid")
+
+    userQuiz = UserQuizTable.objects.filter(user=user).order_by('-date')
+    topics = {}
+    for i in userQuiz:
+        for j in i.qaTableObjects.all():
+            if j.topic.topic in topics:
+                topics[j.topic.topic] += 1
+            else:
+                topics[j.topic.topic] = 1
+
+    topics.pop('Undefined')
+    return Response(topics)
 
 @api_view(['GET'])
 def showStats(request):
