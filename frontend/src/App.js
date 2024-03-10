@@ -12,7 +12,7 @@ import {
   Quiz,
   Stacked,
   Pyramid,
-  Customers,
+  Profile,
   Kanban,
   Line,
   Area,
@@ -96,7 +96,7 @@ const App = () => {
                 {/* pages  */}
                 <Route path="/learn" element={<Learn />} />
                 <Route path="/quiz" element={<Quiz />} />
-                <Route path="/customers" element={<Customers />} />
+                <Route path="/profile" element={<Profile />} />
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />

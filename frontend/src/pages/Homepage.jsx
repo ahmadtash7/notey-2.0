@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
@@ -17,16 +17,39 @@ const DropDown = ({ currentMode }) => (
 const Homepage = () => {
   const { currentColor, currentMode } = useStateContext();
 
-  
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://127.0.0.1:8000/noteyapp/dashboard/');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const result = await response.json();
+        console.log(result);
+        setData(result);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
   
   return (
     <div className="mt-24">
-      <div className="flex flex-wrap lg:flex-nowrap justify-center ">
+      {loading && <p>Loading...</p>}
+      {data && (
+        <div className="flex flex-wrap lg:flex-nowrap justify-center ">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Student Name</p>
-              <p className="text-2xl">$63,448.78</p>
+              <p className="text-2xl">{data['data'][0]['username']}</p>
             </div>
             {/* <button
               type="button"
@@ -46,26 +69,73 @@ const Homepage = () => {
           </div>
         </div>
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
-          {earningData.map((item) => (
-            <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
-              <button
+          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
+              {/* <button
                 type="button"
                 style={{ color: item.iconColor, backgroundColor: item.iconBg }}
                 className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
               >
                 {item.icon}
-              </button>
+              </button> */}
               <p className="mt-3">
-                <span className="text-lg font-semibold">{item.amount}</span>
-                <span className={`text-sm text-${item.pcColor} ml-2`}>
-                  {item.percentage}
+                <span className="text-lg font-semibold"></span>
+                <span className={`text-sm ml-2`}>
+                  User Id
                 </span>
               </p>
-              <p className="text-sm text-gray-400  mt-1">{item.title}</p>
+              <p className="text-sm text-gray-400  mt-1">{data['stats']['id']}</p>
             </div>
-          ))}
+          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
+              {/* <button
+                type="button"
+                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
+                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
+              >
+                {item.icon}
+              </button> */}
+              <p className="mt-3">
+                <span className="text-lg font-semibold"></span>
+                <span className={`text-sm ml-2`}>
+                  Quizzes Taken
+                </span>
+              </p>
+              <p className="text-sm text-gray-400  mt-1">{data['stats']['quizzesTaken']}</p>
+            </div>
+          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
+              {/* <button
+                type="button"
+                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
+                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
+              >
+                {item.icon}
+              </button> */}
+              <p className="mt-3">
+                <span className="text-lg font-semibold"></span>
+                <span className={`text-sm ml-2`}>
+                  Questions Attempted
+                </span>
+              </p>
+              <p className="text-sm text-gray-400  mt-1">{data['stats']['questionsAttempted']}</p>
+            </div>
+          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
+              {/* <button
+                type="button"
+                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
+                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
+              >
+                {item.icon}
+              </button> */}
+              <p className="mt-3">
+                <span className="text-lg font-semibold"></span>
+                <span className={`text-sm ml-2`}>
+                  Questions Correct
+                </span>
+              </p>
+              <p className="text-sm text-gray-400  mt-1">{data['stats']['questionsCorrect']}</p>
+            </div>
         </div>
       </div>
+      )}
 
       <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
@@ -153,7 +223,7 @@ const Homepage = () => {
       </div>
 
       <div className="flex gap-10 m-4 flex-wrap justify-center">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
+        {/* <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
           <div className="flex justify-between items-center gap-2">
             <p className="text-xl font-semibold">Recent Transactions</p>
             <DropDown currentMode={currentMode} />
@@ -177,7 +247,7 @@ const Homepage = () => {
                     <p className="text-sm text-gray-400">{item.desc}</p>
                   </div>
                 </div>
-                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                <p className={`}>{item.amount}</p>
               </div>
             ))}
           </div>
@@ -231,7 +301,7 @@ const Homepage = () => {
                   </div>
                 </div>
 
-                <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                <p className={`}>{item.amount}</p>
               </div>
             ))}
             <div className="mt-4">
@@ -239,8 +309,8 @@ const Homepage = () => {
             </div>
           </div>
 
-        </div>
-        <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        </div> */}
+        {/* <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
             <p className="text-xl font-semibold">MedicalPro Branding</p>
             <button type="button" className="text-xl font-semibold text-gray-400">
@@ -294,7 +364,7 @@ const Homepage = () => {
 
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
-        </div>
+        </div> */}
         <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
             <p className="text-xl font-semibold">Daily Activities</p>
@@ -302,7 +372,7 @@ const Homepage = () => {
               <IoIosMore />
             </button>
           </div>
-          <div className="mt-10">
+          {/* <div className="mt-10">
             <img
               className="md:w-96 h-50 "
               src={product9}
@@ -324,7 +394,7 @@ const Homepage = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

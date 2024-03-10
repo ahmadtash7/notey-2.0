@@ -532,7 +532,7 @@ export const links = [
         icon: <IoMdContacts />,
       },
       {
-        name: "customers",
+        name: "profile",
         icon: <RiContactsLine />,
       },
     ],
@@ -548,14 +548,14 @@ export const links = [
         name: "kanban",
         icon: <BsKanban />,
       },
-      {
-        name: "editor",
-        icon: <FiEdit />,
-      },
-      {
-        name: "color-picker",
-        icon: <BiColorFill />,
-      },
+      // {
+      //   name: "editor",
+      //   icon: <FiEdit />,
+      // },
+      // {
+      //   name: "color-picker",
+      //   icon: <BiColorFill />,
+      // },
     ],
   },
   {
@@ -565,10 +565,10 @@ export const links = [
         name: "line",
         icon: <AiOutlineStock />,
       },
-      {
-        name: "area",
-        icon: <AiOutlineAreaChart />,
-      },
+      // {
+      //   name: "area",
+      //   icon: <AiOutlineAreaChart />,
+      // },
 
       {
         name: "bar",
@@ -578,18 +578,18 @@ export const links = [
         name: "pie",
         icon: <FiPieChart />,
       },
-      {
-        name: "financial",
-        icon: <RiStockLine />,
-      },
-      {
-        name: "color-mapping",
-        icon: <BsBarChart />,
-      },
-      {
-        name: "pyramid",
-        icon: <GiLouvrePyramid />,
-      },
+      // {
+      //   name: "financial",
+      //   icon: <RiStockLine />,
+      // },
+      // {
+      //   name: "color-mapping",
+      //   icon: <BsBarChart />,
+      // },
+      // {
+      //   name: "pyramid",
+      //   icon: <GiLouvrePyramid />,
+      // },
       {
         name: "stacked",
         icon: <AiOutlineBarChart />,
