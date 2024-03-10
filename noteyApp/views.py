@@ -31,8 +31,8 @@ def dashboard(request):
     stats = StatsTable.objects.get()
     stat_serializer = StatsTableSerializer(stats)
     serializer = UserSerializer(user, many=True)
-    userqa = UserQuizTable.objects.filter(user=user)
-    n_topics = TopicTable.objects.filter()
+    # userqa = UserQuizTable.objects.filter(user=user)
+    # n_topics = TopicTable.objects.filter()
     return Response({'data':serializer.data,'stats':stat_serializer.data}, status=status.HTTP_200_OK)
 
 
@@ -45,7 +45,15 @@ def createQuiz(request, num_questions=5):
     for i in random_qa:
         # print(i)
         # print(type(i.distractors))
-        pass
+        unique_values = set()
+        unique_distractors = {}
+
+        for key, value in i.distractors.items():
+            if value.strip() not in unique_values:
+                unique_values.add(value.strip())
+                unique_distractors[key] = value
+        print(unique_distractors)
+        i.distractors = unique_distractors
 
 
 
