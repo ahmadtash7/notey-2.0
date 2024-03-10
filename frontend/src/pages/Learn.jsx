@@ -59,7 +59,6 @@ const Learn = () => {
             {data.map((topic, index) => (
               <div key={index} className='m-2 md:m-5 mt-6 p-2 rounded-3xl' style={{ background: currentColor }}>
                 <NavLink to='/homepage'>
-                  <span>{index}</span>
                   <span>{topic['topic']}</span>
                 </NavLink>
                 </div>

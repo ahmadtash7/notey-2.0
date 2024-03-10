@@ -10,6 +10,7 @@ import {
   Learn,
   Calendar,
   Quiz,
+  QuizResult,
   Stacked,
   Pyramid,
   Profile,
@@ -96,6 +97,7 @@ const App = () => {
                 {/* pages  */}
                 <Route path="/learn" element={<Learn />} />
                 <Route path="/quiz" element={<Quiz />} />
+                <Route path="/quizresult" element={<QuizResult />} />
                 <Route path="/profile" element={<Profile />} />
 
                 {/* apps  */}
