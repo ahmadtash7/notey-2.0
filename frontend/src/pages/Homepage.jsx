@@ -49,8 +49,8 @@ const Homepage = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Student Name</p>
-              <p className="text-2xl">{data['data'][0]['username']}</p>
+              <p className="font-bold text-gray-400 text-3xl mt-2">Student Name</p>
+              <p className="text-2xl mt-2">{data['data'][0]['username']}</p>
             </div>
             {/* <button
               type="button"
@@ -79,12 +79,11 @@ const Homepage = () => {
                 {item.icon}
               </button> */}
               <p className="mt-3">
-                <span className="text-lg font-semibold"></span>
-                <span className={`text-sm ml-2`}>
+                <span className={`text-3xl ml-2`}>
                   User Id
                 </span>
               </p>
-              <p className="text-sm text-gray-400  mt-1">{data['stats']['id']}</p>
+              <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['id']}</p>
             </div>
           <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
               {/* <button
@@ -95,12 +94,11 @@ const Homepage = () => {
                 {item.icon}
               </button> */}
               <p className="mt-3">
-                <span className="text-lg font-semibold"></span>
-                <span className={`text-sm ml-2`}>
-                  Quizzes Taken
+                <span className={`text-3xl ml-2`}>
+                  Quizzes
                 </span>
               </p>
-              <p className="text-sm text-gray-400  mt-1">{data['stats']['quizzesTaken']}</p>
+              <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['quizzesTaken']}</p>
             </div>
           <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
               {/* <button
@@ -111,12 +109,11 @@ const Homepage = () => {
                 {item.icon}
               </button> */}
               <p className="mt-3">
-                <span className="text-lg font-semibold"></span>
-                <span className={`text-sm ml-2`}>
-                  Questions Attempted
+              <span className={`text-3xl ml-2`}>
+                  Questions
                 </span>
               </p>
-              <p className="text-sm text-gray-400  mt-1">{data['stats']['questionsAttempted']}</p>
+              <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['questionsAttempted']}</p>
             </div>
           <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
               {/* <button
@@ -127,12 +124,11 @@ const Homepage = () => {
                 {item.icon}
               </button> */}
               <p className="mt-3">
-                <span className="text-lg font-semibold"></span>
-                <span className={`text-sm ml-2`}>
-                  Questions Correct
+              <span className={`text-3xl ml-2`}>
+                  Correct
                 </span>
               </p>
-              <p className="text-sm text-gray-400  mt-1">{data['stats']['questionsCorrect']}</p>
+              <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['questionsCorrect']}</p>
             </div>
         </div>
       </div>
@@ -141,9 +137,9 @@ const Homepage = () => {
       <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
           <div className="flex justify-between">
-            <p className="font-semibold text-xl">Revenue Updates</p>
+            <p className="font-semibold text-3xl">Annual Statistics</p>
             <div className="flex items-center gap-4">
-              <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
+              {/* <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
                 <span>
                   
                 </span>
@@ -154,12 +150,12 @@ const Homepage = () => {
                   
                 </span>
                 <span>Budget</span>
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="mt-10 flex gap-10 flex-wrap justify-center">
             <div className=" border-r-1 border-color m-4 pr-10">
-              <div>
+              {/* <div>
                 <p>
                   <span className="text-3xl font-semibold">$93,438</span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
@@ -167,24 +163,24 @@ const Homepage = () => {
                   </span>
                 </p>
                 <p className="text-gray-500 mt-1">Budget</p>
-              </div>
-              <div className="mt-8">
+              </div> */}
+              {/* <div className="mt-8">
                 <p className="text-3xl font-semibold">$48,487</p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
-              </div>
+              </div> */}
 
-              <div className="mt-5">
+              {/* <div className="mt-5">
                 <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
-              </div>
-              <div className="mt-10">
+              </div> */}
+              {/* <div className="mt-10">
                 <Button
                   color="white"
                   bgColor={currentColor}
                   text="Download Report"
                   borderRadius="10px"
                 />
-              </div>
+              </div> */}
             </div>
             <div>
               <Stacked currentMode={currentMode} width="320px" height="360px" />
@@ -197,11 +193,11 @@ const Homepage = () => {
             style={{ backgroundColor: currentColor }}
           >
             <div className="flex justify-between items-center ">
-              <p className="font-semibold text-white text-2xl">Earnings</p>
+              <p className="font-semibold text-white text-2xl">Daily Quiz Count</p>
 
               <div>
-                <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
-                <p className="text-gray-200">Monthly revenue</p>
+                {/* <p className="text-2xl text-white font-semibold mt-8">Last 5 Days</p> */}
+                <p className="text-gray-200">Last 5 Days</p>
               </div>
             </div>
 
@@ -368,13 +364,13 @@ const Homepage = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div> */}
-        <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
-          <div className="flex justify-between">
-            <p className="text-xl font-semibold">Daily Activities</p>
+        {/* <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3"> */}
+          {/* <div className="flex justify-between"> */}
+            {/* <p className="text-xl font-semibold">Daily Activities</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
-            </button>
-          </div>
+            </button> */}
+          {/* </div> */}
           {/* <div className="mt-10">
             <img
               className="md:w-96 h-50 "
@@ -398,7 +394,7 @@ const Homepage = () => {
               </div>
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );

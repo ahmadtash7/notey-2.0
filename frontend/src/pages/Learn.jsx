@@ -24,6 +24,13 @@ function fetchDataFromBackend() {
 const Learn = () => {
   const editing = { allowDeleting: true, allowEditing: true };
 
+  const saveContext = (index) => {
+    // const id = event.target.id;
+    const id = index + 2;
+    // console.log(id);
+    localStorage.setItem('id', id);
+  }
+
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -34,7 +41,7 @@ const Learn = () => {
       try {
         const result = await fetchDataFromBackend();
         setData(result);
-        console.log(result)
+        // console.log(result)
       } catch (error) {
         setError(error);
       } finally {
@@ -57,13 +64,13 @@ const Learn = () => {
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <Header title="Topics" />
             {data.map((topic, index) => (
-              <div key={index} className='m-2 md:m-5 mt-6 p-2 rounded-3xl' style={{ background: currentColor }}>
-                <NavLink to='/homepage'>
+              <div key={index} className='m-2 md:m-5 mt-6 p-2 rounded-3xl' style={{ background: currentColor }} id={topic['id']}>
+                <NavLink to='/context' key={index} onClick={() => saveContext(index)}>
                   <span>{topic['topic']}</span>
                 </NavLink>
                 </div>
-
-            ))}
+            )
+            )}
     </div>
   );
 };

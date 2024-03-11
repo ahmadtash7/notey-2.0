@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 // import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
+import { useStateContext } from '../contexts/ContextProvider';
+import { NavLink } from 'react-router-dom';
 
 function fetchDataFromBackend() {
   const apiUrl = 'http://127.0.0.1:8000/noteyapp/quiz/';
@@ -24,6 +26,8 @@ function fetchDataFromBackend() {
 }
 
 const Quiz = () => {
+
+  const { currentColor, currentMode } = useStateContext();
 
   const [userAnswers, setUserAnswers] = useState({});
 
@@ -124,7 +128,9 @@ const Quiz = () => {
           </ul>
         ))
       )}
-      <button onClick={handleClick}>Submit</button>
+      <button onClick={handleClick} type="button" style={{ backgroundColor: currentColor }}
+                className="text-l opacity-0.9 text-white hover:drop-shadow-xl rounded-2xl p-3"
+              ><NavLink to={'/quizresult'}>Submit</NavLink></button>
     </div>
           
 

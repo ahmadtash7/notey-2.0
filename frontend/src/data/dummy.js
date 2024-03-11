@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHome, FaBook, FaUser } from "react-icons/fa";
 import {
   AiOutlineCalendar,
   AiOutlineShoppingCart,
@@ -24,7 +25,7 @@ import {
   BsChatLeft,
 } from "react-icons/bs";
 import { BiColorFill } from "react-icons/bi";
-import { IoMdContacts } from "react-icons/io";
+import { IoMdContacts, IoMdSchool } from "react-icons/io";
 import { RiContactsLine, RiStockLine } from "react-icons/ri";
 import { MdOutlineSupervisorAccount } from "react-icons/md";
 import { HiOutlineRefresh } from "react-icons/hi";
@@ -264,19 +265,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: "USA", y: 46 },
-    { x: "GBR", y: 27 },
-    { x: "CHN", y: 26 },
+    { x: "Total Questions", y: 46 },
+    // { x: "GBR", y: 27 },
+    // { x: "CHN", y: 26 },
   ],
   [
-    { x: "USA", y: 37 },
-    { x: "GBR", y: 23 },
-    { x: "CHN", y: 18 },
+    { x: "Correct Answers", y: 37 },
+    // { x: "GBR", y: 23 },
+    // { x: "CHN", y: 18 },
   ],
   [
-    { x: "USA", y: 38 },
-    { x: "GBR", y: 17 },
-    { x: "CHN", y: 26 },
+    { x: "Incorrect Answers", y: 38 },
+    // { x: "GBR", y: 17 },
+    // { x: "CHN", y: 26 },
   ],
 ];
 
@@ -285,7 +286,7 @@ export const barCustomSeries = [
     dataSource: barChartData[0],
     xName: "x",
     yName: "y",
-    name: "Gold",
+    name: "Questions",
     type: "Column",
     marker: {
       dataLabel: {
@@ -299,7 +300,7 @@ export const barCustomSeries = [
     dataSource: barChartData[1],
     xName: "x",
     yName: "y",
-    name: "Silver",
+    name: "Correct Answers",
     type: "Column",
     marker: {
       dataLabel: {
@@ -313,7 +314,7 @@ export const barCustomSeries = [
     dataSource: barChartData[2],
     xName: "x",
     yName: "y",
-    name: "Bronze",
+    name: "Wrong Answers",
     type: "Column",
     marker: {
       dataLabel: {
@@ -511,11 +512,11 @@ export const employeesGrid = [
 
 export const links = [
   {
-    title: "Dashboard",
+    // title: "Dashboard",
     links: [
       {
         name: "homepage",
-        icon: <FiShoppingBag />,
+        icon: <FaHome />,
       },
     ],
   },
@@ -525,15 +526,15 @@ export const links = [
     links: [
       {
         name: "learn",
-        icon: <AiOutlineShoppingCart />,
+        icon: <FaBook />,
       },
       {
         name: "quiz",
-        icon: <IoMdContacts />,
+        icon: <IoMdSchool />,
       },
       {
         name: "profile",
-        icon: <RiContactsLine />,
+        icon: <FaUser />,
       },
     ],
   },
@@ -561,10 +562,10 @@ export const links = [
   {
     title: "Charts",
     links: [
-      {
-        name: "line",
-        icon: <AiOutlineStock />,
-      },
+      // {
+      //   name: "line",
+      //   icon: <AiOutlineStock />,
+      // },
       // {
       //   name: "area",
       //   icon: <AiOutlineAreaChart />,
@@ -590,10 +591,10 @@ export const links = [
       //   name: "pyramid",
       //   icon: <GiLouvrePyramid />,
       // },
-      {
-        name: "stacked",
-        icon: <AiOutlineBarChart />,
-      },
+      // {
+      //   name: "stacked",
+      //   icon: <AiOutlineBarChart />,
+      // },
     ],
   },
 ];
@@ -3059,7 +3060,7 @@ export const stackedCustomSeries = [
     dataSource: stackedChartData[0],
     xName: "x",
     yName: "y",
-    name: "Budget",
+    name: "Correct Answers",
     type: "StackingColumn",
     background: "blue",
   },
@@ -3068,7 +3069,7 @@ export const stackedCustomSeries = [
     dataSource: stackedChartData[1],
     xName: "x",
     yName: "y",
-    name: "Expense",
+    name: "Total Questions",
     type: "StackingColumn",
     background: "red",
   },

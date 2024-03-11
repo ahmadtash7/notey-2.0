@@ -61,7 +61,7 @@ const [user, setUser] = useState(null);
           /> */}
           <p>
             <Link to='/signin'>
-              <span>Sign In</span>
+              <span className='text-xl dark:text-white text-black'>Sign In</span>
             </Link>
           </p>
           <MdKeyboardArrowDown/>

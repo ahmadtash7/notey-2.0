@@ -61,85 +61,77 @@ const Profile = () => {
           <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         First Name
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['first_name']}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['first_name']}</p>
               </div>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         Last Name
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['last_name']}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['last_name']}</p>
               </div>
-            <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
+            <div className="bg-white inline-block dark:text-gray-200 dark:bg-secondary-dark-bg p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         Email
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['email']}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['email']}</p>
               </div>
           </div>
           <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         User Id
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['id']}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['id']}</p>
               </div>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         Username
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['username']}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['username']}</p>
               </div>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         Date Joined
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['date_joined'].substring(0,10)}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['date_joined'].substring(0,10)}</p>
               </div>
           </div>
           <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
-                        Activity Status
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
+                        Status
                       </span>
                     </p>
                     {data['data'][0]['is_active'] ? (
-                    <p className="text-sm text-gray-400  mt-1">
+                    <p className="text-2xl mt-2">
                       Online
                       </p>)
-                      : <p className="text-sm text-gray-400  mt-1">
+                      : <p className="text-2xl mt-2">
                       Offline
                       </p> }
             </div>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
-                      <span className="text-lg font-semibold"></span>
-                      <span className={`text-sm ml-2`}>
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
                         Last Login
                       </span>
                     </p>
-                    <p className="text-sm text-gray-400  mt-1">{data['data'][0]['last_login'].substring(0,10)}</p>
+                    <p className="text-2xl mt-2">{data['data'][0]['last_login'].substring(0,10)}</p>
             </div>
           </div>
         </div>

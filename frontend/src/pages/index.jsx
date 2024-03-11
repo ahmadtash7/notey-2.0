@@ -1,6 +1,7 @@
 export { default as Homepage } from './Homepage';
 export { default as Kanban } from './Kanban';
 export { default as Learn } from './Learn';
+export { default as Context } from './Context';
 export { default as Quiz } from './Quiz';
 export { default as Editor } from './Editor';
 export { default as Profile } from './Profile';

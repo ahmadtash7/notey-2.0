@@ -8,6 +8,7 @@ import {
   Homepage,
   SignIn,
   Learn,
+  Context,
   Calendar,
   Quiz,
   QuizResult,
@@ -96,6 +97,7 @@ const App = () => {
 
                 {/* pages  */}
                 <Route path="/learn" element={<Learn />} />
+                <Route path="/context" element={<Context />} />
                 <Route path="/quiz" element={<Quiz />} />
                 <Route path="/quizresult" element={<QuizResult />} />
                 <Route path="/profile" element={<Profile />} />
