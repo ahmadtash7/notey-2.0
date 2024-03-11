@@ -104,7 +104,7 @@ const Quiz = () => {
         data['qa'].map((item, index) => (
           <ul>
             <div key={index} className='m-3'>
-                <h1>{item.question}</h1>
+                <h1>{index + 1}. {item.question}</h1>
                 <li>
                   {Object.values(item.distractors).map((value, index) => (
                   <div key={index}>

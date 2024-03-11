@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
+import { FaQuestion, FaCheck, FaTasks, FaIdCard } from 'react-icons/fa';
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
@@ -45,72 +46,34 @@ const Homepage = () => {
     <div className="mt-24">
       {loading && <p>Loading...</p>}
       {data && (
-        <div className="flex flex-wrap lg:flex-nowrap justify-center ">
+        <div className="flex flex-wrap lg:flex-nowrap justify-around ">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400 text-3xl mt-2">Student Name</p>
               <p className="text-2xl mt-2">{data['data'][0]['username']}</p>
             </div>
-            {/* <button
-              type="button"
-              style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
-            >
-              <BsCurrencyDollar />
-            </button> */}
-          </div>
-          <div className="mt-6">
-            {/* <Button
-              color="white"
-              bgColor={currentColor}
-              text="Download"
-              borderRadius="10px"
-            /> */}
           </div>
         </div>
-        <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
-          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
-              {/* <button
-                type="button"
-                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
-              >
-                {item.icon}
-              </button> */}
-              <p className="mt-3">
-                <span className={`text-3xl ml-2`}>
-                  User Id
-                </span>
-              </p>
-              <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['id']}</p>
-            </div>
-          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
-              {/* <button
-                type="button"
-                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
-              >
-                {item.icon}
-              </button> */}
-              <p className="mt-3">
+        <div className="flex m-3 flex-wrap justify-around gap-1 items-center">
+          <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl">
+              <p className="flex mt-3">
                 <span className={`text-3xl ml-2`}>
                   Quizzes
+                </span>
+                <span className='text-3xl mt-1 ml-2'>
+                  <FaTasks />
                 </span>
               </p>
               <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['quizzesTaken']}</p>
             </div>
           <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
-              {/* <button
-                type="button"
-                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
-              >
-                {item.icon}
-              </button> */}
-              <p className="mt-3">
+              <p className="flex mt-3">
               <span className={`text-3xl ml-2`}>
                   Questions
+                </span>
+                <span className='text-3xl mt-1 ml-2'>
+                  <FaQuestion />
                 </span>
               </p>
               <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['questionsAttempted']}</p>
@@ -123,9 +86,12 @@ const Homepage = () => {
               >
                 {item.icon}
               </button> */}
-              <p className="mt-3">
+              <p className="flex mt-3">
               <span className={`text-3xl ml-2`}>
                   Correct
+                </span>
+                <span className='text-3xl mt-1 ml-2'>
+                  <FaCheck />
                 </span>
               </p>
               <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['questionsCorrect']}</p>

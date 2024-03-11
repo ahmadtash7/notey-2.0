@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter } from '@syncfusion/ej2-react-grids';
+import { FaUser, FaEnvelope, FaIdCard, FaUserTag, FaCalendar, FaPowerOff, FaSignInAlt } from 'react-icons/fa';
 
 import { customersData, customersGrid } from '../data/dummy';
 import { Header } from '../components';
@@ -35,30 +36,18 @@ const Profile = () => {
   }, []);
 
   return (
-    // <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-    //   <Header category="Page" title="Customers" />
-    //   <GridComponent
-    //     dataSource={customersData}
-    //     enableHover={false}
-    //     allowPaging
-    //     pageSettings={{ pageCount: 5 }}
-    //     selectionSettings={selectionsettings}
-    //     toolbar={toolbarOptions}
-    //     editSettings={editing}
-    //     allowSorting
-    //   >
-    //     <ColumnsDirective>
-    //       {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-    //       {customersGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
-    //     </ColumnsDirective>
-    //     <Inject services={[Page, Selection, Toolbar, Edit, Sort, Filter]} />
-    //   </GridComponent>
-    // </div>
     <div>
       {loading}
       {data && (
-        <div>
-          <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
+        <div className="profile-block">
+          <div className='flex flex-wrap lg:flex-nowrap justify-center m-4 ml-10 mr-10'>
+          <div className="inline-block dark:text-gray-200 p-4 pt-9 rounded-2xl m-4">
+            <p className='text-5xl font-semibold'>
+              User Profile
+            </p>
+          </div>
+          </div>
+          <div className='flex flex-wrap lg:flex-nowrap justify-between m-4 ml-10 mr-10'>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
                       <span className="font-bold text-gray-400 text-3xl mt-2">
@@ -82,9 +71,25 @@ const Profile = () => {
                       </span>
                     </p>
                     <p className="text-2xl mt-2">{data['data'][0]['email']}</p>
+                    {/* <p className="text-2xl mt-2">{data['data'][0]['email'].substring(15,25)}</p> */}
               </div>
+              <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
+                    <p className="mt-3">
+                      <span className="font-bold text-gray-400 text-3xl mt-2">
+                        Status
+                      </span>
+                    </p>
+                    {data['data'][0]['is_active'] ? (
+                    <p className="text-2xl mt-2">
+                      Online
+                      </p>)
+                      : <p className="text-2xl mt-2">
+                      Offline
+                      </p> }
+            </div>
+            
           </div>
-          <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
+          <div className='flex flex-wrap lg:flex-nowrap justify-between m-4  ml-10 mr-10'>
             <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
                       <span className="font-bold text-gray-400 text-3xl mt-2">
@@ -109,23 +114,7 @@ const Profile = () => {
                     </p>
                     <p className="text-2xl mt-2">{data['data'][0]['date_joined'].substring(0,10)}</p>
               </div>
-          </div>
-          <div className='flex flex-wrap lg:flex-nowrap justify-center m-4'>
-            <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
-                    <p className="mt-3">
-                      <span className="font-bold text-gray-400 text-3xl mt-2">
-                        Status
-                      </span>
-                    </p>
-                    {data['data'][0]['is_active'] ? (
-                    <p className="text-2xl mt-2">
-                      Online
-                      </p>)
-                      : <p className="text-2xl mt-2">
-                      Offline
-                      </p> }
-            </div>
-            <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
+              <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl m-4">
                     <p className="mt-3">
                       <span className="font-bold text-gray-400 text-3xl mt-2">
                         Last Login
@@ -134,6 +123,10 @@ const Profile = () => {
                     <p className="text-2xl mt-2">{data['data'][0]['last_login'].substring(0,10)}</p>
             </div>
           </div>
+          {/* <div className='flex flex-wrap lg:flex-nowrap justify-around m-4'>
+            
+            
+          </div> */}
         </div>
         )}
     </div>
