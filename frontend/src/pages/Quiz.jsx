@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { GridComponent, Inject, ColumnsDirective, ColumnDirective, Search, Page } from '@syncfusion/ej2-react-grids';
-
-// import { employeesData, employeesGrid } from '../data/dummy';
 import { Header } from '../components';
 import { useStateContext } from '../contexts/ContextProvider';
 import { NavLink } from 'react-router-dom';
@@ -27,7 +24,46 @@ function fetchDataFromBackend() {
 
 const Quiz = () => {
 
-  const { currentColor, currentMode } = useStateContext();
+  const { currentColor, currentMode, activeMenu, setActiveMenu } = useStateContext();
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      // Check if the user is currently in a test
+      const isInTest = true
+      
+      if (isInTest) {
+        // Cancel the unload event
+        event.preventDefault();
+        // Chrome requires returnValue to be set
+        event.returnValue = '';
+      }
+    };
+
+    // Add event listener when the component mounts
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        setActiveMenu(true);
+        console.log(activeMenu);
+        window.location.href = '/homepage';
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+  
 
   const [userAnswers, setUserAnswers] = useState({});
 
@@ -43,9 +79,6 @@ const Quiz = () => {
     data['qa'].forEach(item => {
       correctAnswers[item['id']] = item['answer'];
     });
-    
-    // console.log('Correct Answer', correctAnswers)
-    // console.log('User Answers:', userAnswers);
 
     const userScore = {};
 
@@ -96,7 +129,7 @@ const Quiz = () => {
   if (loading) return <p>Loading...</p>;
   
   return (
-  // console.log(data['qa']),
+  console.log(activeMenu),
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <Header title="Quiz" />
       

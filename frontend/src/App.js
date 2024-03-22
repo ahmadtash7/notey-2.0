@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
-import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
+import { Navbar, Sidebar, ThemeSettings } from "./components";
 import {
   Homepage,
   SignIn,
@@ -35,6 +35,7 @@ const App = () => {
     setCurrentMode,
     currentMode,
     activeMenu,
+    setActiveMenu,
     currentColor,
     themeSettings,
     setThemeSettings,
@@ -48,6 +49,8 @@ const App = () => {
       setCurrentMode(currentThemeMode);
     }
   }, []);
+
+  console.log(activeMenu);
 
   return (
     <div className={currentMode === "Dark" ? "dark" : ""}>
@@ -65,15 +68,16 @@ const App = () => {
               </button>
             </TooltipComponent>
           </div>
-          {activeMenu ? (
-            <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white ">
-              <Sidebar />
-            </div>
-          ) : (
-            <div className="w-0 dark:bg-secondary-dark-bg">
-              <Sidebar />
-            </div>
-          )}
+
+          <div
+            className={
+              activeMenu
+                ? "w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white "
+                : "w-0 dark:bg-secondary-dark-bg"
+            }
+          >
+            {activeMenu && <Sidebar />}
+          </div>
           <div
             className={
               activeMenu
@@ -81,9 +85,12 @@ const App = () => {
                 : "bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen flex-2 "
             }
           >
-            <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full ">
-              <Navbar />
-            </div>
+            {activeMenu && (
+              <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full ">
+                <Navbar />
+              </div>
+            )}
+
             <div>
               {themeSettings && <ThemeSettings />}
 

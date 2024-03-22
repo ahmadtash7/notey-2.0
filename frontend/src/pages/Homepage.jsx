@@ -79,13 +79,6 @@ const Homepage = () => {
               <p className="text-2xl text-gray-400  mt-2 ml-2">{data['stats']['questionsAttempted']}</p>
             </div>
           <div className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
-              {/* <button
-                type="button"
-                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
-              >
-                {item.icon}
-              </button> */}
               <p className="flex mt-3">
               <span className={`text-3xl ml-2`}>
                   Correct
