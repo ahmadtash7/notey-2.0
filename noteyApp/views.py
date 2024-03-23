@@ -26,25 +26,26 @@ import datetime
 
 @api_view(['GET'])
 def dashboard(request):
-    print(request)
+    # print(request)
     if request.user.is_authenticated:
         
         user = User.objects.filter(username=request.user)
         
-        print(request.user)
+        # print(request.user)
         
         stats, created = StatsTable.objects.get_or_create(user=user[0])
         stat_serializer = StatsTableSerializer(stats)
         serializer = UserSerializer(user, many=True)
-        # userqa = UserQuizTable.objects.filter(user=user)
-        # n_topics = TopicTable.objects.filter()
+        
         return Response({'data':serializer.data,'stats':stat_serializer.data}, status=status.HTTP_200_OK)
     else:
         return Response("User not authenticated", status=status.HTTP_404_NOT_FOUND)
 
 @api_view(['GET'])
 def createQuiz(request, num_questions=5):
-    user = User.objects.get(username="zaid")
+    # user = User.objects.get(username="zaid")
+    user = User.objects.filter(username=request.user)
+
     # qa = QuestionAnswerTable.objects.all()
     qa = QuestionAnswerTable.objects.exclude(topic_id=18)
     random_qa = qa.order_by('?')[:num_questions]
@@ -98,7 +99,9 @@ def createQuiz(request, num_questions=5):
 
 
 def updateStatsView(request):
-    user = User.objects.get(username="zaid")
+    # user = User.objects.get(username="zaid")
+    user = User.objects.filter(username=request.user)
+
     userStats = StatsTable.objects.get_or_create(user=user)
     userStats[0].updateStats(user)
 
@@ -107,7 +110,9 @@ def updateStatsView(request):
 
 @api_view(['GET'])
 def getLatestThree(request):
-    user = User.objects.get(username="zaid")
+    # user = User.objects.get(username="zaid")
+    user = User.objects.filter(username=request.user)
+
     userQuiz = UserQuizTable.objects.filter(user=user).order_by('-date')[:3]
     
     serializer = UserQuizTableSerializer(userQuiz, many=True)
@@ -118,7 +123,9 @@ def getLatestThree(request):
 
 @api_view(['GET'])
 def getFiveDayCount(request):
-    user = User.objects.get(username="zaid")
+    # user = User.objects.get(username="zaid")
+    user = User.objects.filter(username=request.user)
+
     today = datetime.date.today()
     userQuiz = UserQuizTable.objects.filter(user=user, date__range=[today - datetime.timedelta(days=5), today])
     
@@ -142,24 +149,33 @@ def getTopics(request):
 
 @api_view(['GET'])
 def getQATopics(request):
-    user = User.objects.get(username="zaid")
+   
+    user = User.objects.get(username=request.user)
+    topics = {key: 0 for key in TopicTable.objects.values_list('topic', flat=True)}
+    
+    try:
+        userQuiz = UserQuizTable.objects.filter(user=user).order_by('-date')
+        
+    except:
+        return Response(topics)
 
-    userQuiz = UserQuizTable.objects.filter(user=user).order_by('-date')
-    topics = {}
+
     for i in userQuiz:
         for j in i.qaTableObjects.all():
             if j.topic.topic in topics:
                 topics[j.topic.topic] += 1
             else:
                 topics[j.topic.topic] = 1
-
+    
     topics.pop('Undefined')
     return Response(topics)
 
 @api_view(['GET'])
 def showStats(request):
     
-    user = User.objects.get(username="zaid")
+    # user = User.objects.get(username="zaid")
+
+    user = User.objects.filter(username=request.user)
     # userStats = StatsTable.objects.get_or_create(user=user)
     # userStats[0].updateStats(user)
     serializer = StatsTableSerializer()
@@ -171,7 +187,7 @@ def getContext(request, topic_id):
     context = ContextTable.objects.exclude(topic_id=18)
     context = context.filter(topic_id=topic_id)
     serializer = ContextTableSerializer(context, many=True)
-    print(request.user)
+    # print(request.user)
     return Response(serializer.data)
 
 @api_view(['POST'])

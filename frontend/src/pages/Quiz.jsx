@@ -6,7 +6,14 @@ import { NavLink } from 'react-router-dom';
 function fetchDataFromBackend() {
   const apiUrl = 'http://127.0.0.1:8000/noteyapp/getQATopics/';
 
-  return fetch(apiUrl)
+  return fetch(apiUrl, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': "Token " + localStorage.getItem('token'), // Add a space after "Token"
+
+      },
+      })
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
