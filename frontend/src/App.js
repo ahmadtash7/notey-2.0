@@ -28,6 +28,7 @@ import {
 import "./App.css";
 
 import { useStateContext } from "./contexts/ContextProvider";
+import GenerateQuestions from "./pages/GenerateQuestions";
 
 const App = () => {
   const {
@@ -108,6 +109,7 @@ const App = () => {
                 <Route path="/quiz" element={<Quiz />} />
                 <Route path="/quizresult" element={<QuizResult />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/genq" element={<GenerateQuestions />} />
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />
