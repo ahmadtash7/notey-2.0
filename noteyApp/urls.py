@@ -14,9 +14,7 @@ path('getQATopics/', views.getQATopics),
 path('getLatestThree/', views.getLatestThree),
 path('getFiveDayCount/', views.getFiveDayCount),
 
-# path('signin/', views.UserLogin.as_view()),
-# path('signup/', views.UserRegistration.as_view() ),
-# path('logout/', views.UserLogout.as_view() ),
-# path('user/', views.UserView.as_view()  ),
-
+path('signin/', views.UserSigninView),
+path('signout/', views.UserSignoutView),
+# path('api-token-auth/', ObtainAuthToken.as_view()),
 ]

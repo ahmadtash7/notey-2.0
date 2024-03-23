@@ -26,15 +26,21 @@ import datetime
 
 @api_view(['GET'])
 def dashboard(request):
-    user = User.objects.filter(username='zaid')
-    print(user)
-    stats = StatsTable.objects.get()
-    stat_serializer = StatsTableSerializer(stats)
-    serializer = UserSerializer(user, many=True)
-    # userqa = UserQuizTable.objects.filter(user=user)
-    # n_topics = TopicTable.objects.filter()
-    return Response({'data':serializer.data,'stats':stat_serializer.data}, status=status.HTTP_200_OK)
-
+    print(request)
+    if request.user.is_authenticated:
+        
+        user = User.objects.filter(username=request.user)
+        
+        print(request.user)
+        
+        stats, created = StatsTable.objects.get_or_create(user=user[0])
+        stat_serializer = StatsTableSerializer(stats)
+        serializer = UserSerializer(user, many=True)
+        # userqa = UserQuizTable.objects.filter(user=user)
+        # n_topics = TopicTable.objects.filter()
+        return Response({'data':serializer.data,'stats':stat_serializer.data}, status=status.HTTP_200_OK)
+    else:
+        return Response("User not authenticated", status=status.HTTP_404_NOT_FOUND)
 
 @api_view(['GET'])
 def createQuiz(request, num_questions=5):
@@ -152,10 +158,12 @@ def getQATopics(request):
 
 @api_view(['GET'])
 def showStats(request):
+    
     user = User.objects.get(username="zaid")
     # userStats = StatsTable.objects.get_or_create(user=user)
     # userStats[0].updateStats(user)
     serializer = StatsTableSerializer()
+    print(request.user)
     return Response(serializer.data)
 
 @api_view(['GET'])
@@ -163,4 +171,28 @@ def getContext(request, topic_id):
     context = ContextTable.objects.exclude(topic_id=18)
     context = context.filter(topic_id=topic_id)
     serializer = ContextTableSerializer(context, many=True)
+    print(request.user)
     return Response(serializer.data)
+
+@api_view(['POST'])
+def UserSigninView(request):
+    username = request.data['username']
+    password = request.data['password']
+    dum = {"username": "zaid", "password": "zaid"}
+
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        login(request, user)
+        token, created = Token.objects.get_or_create(user=user)
+        print(token.key)
+        print(request.user)
+        return Response({'token': token.key}, status=status.HTTP_200_OK)
+    else:
+        return Response("User not found", status=status.HTTP_404_NOT_FOUND)
+
+@api_view(['GET'])
+def UserSignoutView(request):
+    username = request.user
+    logout(request)
+    return Response(f"User {username} logged out", status=status.HTTP_200_OK)
+
